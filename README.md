@@ -1,5 +1,7 @@
 # COMP30830-SE-G9-Dublin_bike_system
 
+Dublin Bikes Web Application
+```
 COMP30830-SE-G9-Dublin_bike_system/
 ├── frontend/
 │   ├── css/
@@ -36,3 +38,4 @@ COMP30830-SE-G9-Dublin_bike_system/
 ├── .env
 ├── .gitignore
 └── README.md
+```
