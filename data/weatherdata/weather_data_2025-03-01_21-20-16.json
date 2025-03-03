@@ -1,0 +1,6044 @@
+[
+    {
+        "timestamp": "2025-03-01 21:20:02",
+        "location": {
+            "station": "SMITHFIELD NORTH",
+            "lat": 53.349562,
+            "lng": -6.278198
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2782,
+                "lat": 53.3496
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.52,
+                "temp_max": 8.27,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852149
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:02",
+        "location": {
+            "station": "PARNELL SQUARE NORTH",
+            "lat": 53.3537415547453,
+            "lng": -6.26530144781526
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:02",
+        "location": {
+            "station": "CLONMEL STREET",
+            "lat": 53.336021,
+            "lng": -6.26298
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:02",
+        "location": {
+            "station": "AVONDALE ROAD",
+            "lat": 53.359405,
+            "lng": -6.276142
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2761,
+                "lat": 53.3594
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.83,
+                "feels_like": 7.13,
+                "temp_min": 7.43,
+                "temp_max": 8.18,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 3315319,
+            "name": "Cabra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "JAMES STREET EAST",
+            "lat": 53.336597,
+            "lng": -6.248109
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "MOUNT STREET LOWER",
+            "lat": 53.33796,
+            "lng": -6.24153
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2415,
+                "lat": 53.338
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.51,
+                "temp_max": 8.26,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813155,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "CHRISTCHURCH PLACE",
+            "lat": 53.343368,
+            "lng": -6.27012
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2701,
+                "lat": 53.3434
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "GRANTHAM STREET",
+            "lat": 53.334123,
+            "lng": -6.265436
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2654,
+                "lat": 53.3341
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2963280,
+            "name": "Kilmainham",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "PEARSE STREET",
+            "lat": 53.344304,
+            "lng": -6.250427
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "YORK STREET EAST",
+            "lat": 53.338755,
+            "lng": -6.262003
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "EXCISE WALK",
+            "lat": 53.347777,
+            "lng": -6.244239
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2442,
+                "lat": 53.3478
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:03",
+        "location": {
+            "station": "FITZWILLIAM SQUARE WEST",
+            "lat": 53.336074,
+            "lng": -6.252825
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "PORTOBELLO ROAD",
+            "lat": 53.330091,
+            "lng": -6.268044
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2654,
+                "lat": 53.3341
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2963280,
+            "name": "Kilmainham",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "PARNELL STREET",
+            "lat": 53.350929,
+            "lng": -6.265125
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "FREDERICK STREET SOUTH",
+            "lat": 53.341515,
+            "lng": -6.256853
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "FOWNES STREET UPPER",
+            "lat": 53.344603,
+            "lng": -6.263371
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "CLARENDON ROW",
+            "lat": 53.340927,
+            "lng": -6.262501
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "CUSTOM HOUSE",
+            "lat": 53.348279,
+            "lng": -6.254662
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:04",
+        "location": {
+            "station": "RATHDOWN ROAD",
+            "lat": 53.35893,
+            "lng": -6.280337
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2761,
+                "lat": 53.3594
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.83,
+                "feels_like": 7.13,
+                "temp_min": 7.43,
+                "temp_max": 8.18,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 3315319,
+            "name": "Cabra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "NORTH CIRCULAR ROAD (O'CONNELL'S)",
+            "lat": 53.357841,
+            "lng": -6.251557
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2516,
+                "lat": 53.3578
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.53,
+                "temp_max": 8.27,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852142
+            },
+            "timezone": 0,
+            "id": 7838916,
+            "name": "Fairview",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "HANOVER QUAY",
+            "lat": 53.344115,
+            "lng": -6.237153
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2415,
+                "lat": 53.338
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.51,
+                "temp_max": 8.26,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813155,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "OLIVER BOND STREET",
+            "lat": 53.343893,
+            "lng": -6.280531
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2805,
+                "lat": 53.3439
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852150
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "COLLINS BARRACKS MUSEUM",
+            "lat": 53.347477,
+            "lng": -6.28525
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2852,
+                "lat": 53.3475
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813166,
+                "sunset": 1740852151
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "BROOKFIELD ROAD",
+            "lat": 53.339005,
+            "lng": -6.300217
+        },
+        "data": {
+            "coord": {
+                "lon": -6.3002,
+                "lat": 53.339
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.46,
+                "temp_max": 8.21,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813169,
+                "sunset": 1740852155
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "BENSON STREET",
+            "lat": 53.344153,
+            "lng": -6.233451
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2335,
+                "lat": 53.3442
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1022
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813154,
+                "sunset": 1740852138
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "EARLSFORT TERRACE",
+            "lat": 53.334295,
+            "lng": -6.258503
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2585,
+                "lat": 53.3343
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:05",
+        "location": {
+            "station": "GOLDEN LANE",
+            "lat": 53.340803,
+            "lng": -6.267732
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2701,
+                "lat": 53.3434
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "DEVERELL PLACE",
+            "lat": 53.351464,
+            "lng": -6.255265
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2553,
+                "lat": 53.3515
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864008,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "WILTON TERRACE (PARK)",
+            "lat": 53.333653,
+            "lng": -6.248345
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2483,
+                "lat": 53.3337
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864008,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813156,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "JOHN STREET WEST",
+            "lat": 53.343105,
+            "lng": -6.277167
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2805,
+                "lat": 53.3439
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852150
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "FENIAN STREET",
+            "lat": 53.341428,
+            "lng": -6.24672
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "MERRION SQUARE SOUTH",
+            "lat": 53.338614,
+            "lng": -6.248606
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "SOUTH DOCK ROAD",
+            "lat": 53.341833,
+            "lng": -6.231291
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2335,
+                "lat": 53.3442
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1022
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813154,
+                "sunset": 1740852138
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "CITY QUAY",
+            "lat": 53.346637,
+            "lng": -6.246154
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:06",
+        "location": {
+            "station": "EXCHEQUER STREET",
+            "lat": 53.343034,
+            "lng": -6.263578
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "THE POINT",
+            "lat": 53.346867,
+            "lng": -6.230852
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2309,
+                "lat": 53.3469
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8,
+                "feels_like": 7.32,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1022
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813153,
+                "sunset": 1740852138
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "BROADSTONE",
+            "lat": 53.3547,
+            "lng": -6.272314
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "HATCH STREET",
+            "lat": 53.33403,
+            "lng": -6.260714
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2585,
+                "lat": 53.3343
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "LIME STREET",
+            "lat": 53.346026,
+            "lng": -6.243576
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2442,
+                "lat": 53.3478
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "CHARLEMONT PLACE",
+            "lat": 53.330662,
+            "lng": -6.260177
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2585,
+                "lat": 53.3343
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "KILMAINHAM GAOL",
+            "lat": 53.342113,
+            "lng": -6.310015
+        },
+        "data": {
+            "coord": {
+                "lon": -6.31,
+                "lat": 53.3421
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813172,
+                "sunset": 1740852157
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "HARDWICKE PLACE",
+            "lat": 53.357043,
+            "lng": -6.263232
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:07",
+        "location": {
+            "station": "WOLFE TONE STREET",
+            "lat": 53.348875,
+            "lng": -6.267459
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "FRANCIS STREET",
+            "lat": 53.342081,
+            "lng": -6.275233
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2805,
+                "lat": 53.3439
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852150
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "GREEK STREET",
+            "lat": 53.346874,
+            "lng": -6.272976
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "GUILD STREET",
+            "lat": 53.347932,
+            "lng": -6.240928
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2442,
+                "lat": 53.3478
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "HERBERT PLACE",
+            "lat": 53.334432,
+            "lng": -6.245575
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2483,
+                "lat": 53.3337
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864008,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813156,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "HIGH STREET",
+            "lat": 53.343565,
+            "lng": -6.275071
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2805,
+                "lat": 53.3439
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852150
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "NORTH CIRCULAR ROAD",
+            "lat": 53.359624,
+            "lng": -6.260348
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "WESTERN WAY",
+            "lat": 53.354929,
+            "lng": -6.269425
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:08",
+        "location": {
+            "station": "TALBOT STREET",
+            "lat": 53.350974,
+            "lng": -6.25294
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "NEWMAN HOUSE",
+            "lat": 53.337132,
+            "lng": -6.26059
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "SIR PATRICK DUN'S",
+            "lat": 53.339218,
+            "lng": -6.240642
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2415,
+                "lat": 53.338
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.51,
+                "temp_max": 8.26,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813155,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "NEW CENTRAL BANK",
+            "lat": 53.347122,
+            "lng": -6.234749
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2309,
+                "lat": 53.3469
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8,
+                "feels_like": 7.32,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1022
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813153,
+                "sunset": 1740852138
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "GRANGEGORMAN LOWER (CENTRAL)",
+            "lat": 53.355173,
+            "lng": -6.278424
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2761,
+                "lat": 53.3594
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.83,
+                "feels_like": 7.13,
+                "temp_min": 7.43,
+                "temp_max": 8.18,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 3315319,
+            "name": "Cabra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "KING STREET NORTH",
+            "lat": 53.350291,
+            "lng": -6.273507
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "KILLARNEY STREET",
+            "lat": 53.354845,
+            "lng": -6.247579
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "HERBERT STREET",
+            "lat": 53.335742,
+            "lng": -6.24551
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:09",
+        "location": {
+            "station": "HANOVER QUAY EAST",
+            "lat": 53.343653,
+            "lng": -6.231755
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2335,
+                "lat": 53.3442
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1022
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813154,
+                "sunset": 1740852138
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "CUSTOM HOUSE QUAY",
+            "lat": 53.347884,
+            "lng": -6.248048
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "MOLESWORTH STREET",
+            "lat": 53.341288,
+            "lng": -6.258117
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "GEORGES QUAY",
+            "lat": 53.347508,
+            "lng": -6.252192
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "KILMAINHAM LANE",
+            "lat": 53.341805,
+            "lng": -6.305085
+        },
+        "data": {
+            "coord": {
+                "lon": -6.31,
+                "lat": 53.3421
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813172,
+                "sunset": 1740852157
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "MOUNT BROWN",
+            "lat": 53.341645,
+            "lng": -6.29719
+        },
+        "data": {
+            "coord": {
+                "lon": -6.3002,
+                "lat": 53.339
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.46,
+                "temp_max": 8.21,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813169,
+                "sunset": 1740852155
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "MARKET STREET SOUTH",
+            "lat": 53.342296,
+            "lng": -6.287661
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2877,
+                "lat": 53.3423
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.88,
+                "feels_like": 7.19,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864012,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813167,
+                "sunset": 1740852152
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "KEVIN STREET",
+            "lat": 53.337757,
+            "lng": -6.267699
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2701,
+                "lat": 53.3434
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:10",
+        "location": {
+            "station": "ECCLES STREET EAST",
+            "lat": 53.358115,
+            "lng": -6.265601
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2656,
+                "lat": 53.3581
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.87,
+                "feels_like": 7.17,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864013,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813163,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 6691027,
+            "name": "Drumcondra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "GRAND CANAL DOCK",
+            "lat": 53.342638,
+            "lng": -6.238695
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2415,
+                "lat": 53.338
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.51,
+                "temp_max": 8.26,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813155,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "MERRION SQUARE EAST",
+            "lat": 53.339434,
+            "lng": -6.246548
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "YORK STREET WEST",
+            "lat": 53.339334,
+            "lng": -6.264699
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "ST. STEPHEN'S GREEN SOUTH",
+            "lat": 53.337494,
+            "lng": -6.26199
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "DENMARK STREET GREAT",
+            "lat": 53.35561,
+            "lng": -6.261397
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "ROYAL HOSPITAL",
+            "lat": 53.343897,
+            "lng": -6.29706
+        },
+        "data": {
+            "coord": {
+                "lon": -6.3002,
+                "lat": 53.339
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.46,
+                "temp_max": 8.21,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813169,
+                "sunset": 1740852155
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:11",
+        "location": {
+            "station": "HEUSTON STATION (CAR PARK)",
+            "lat": 53.346985,
+            "lng": -6.297804
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2978,
+                "lat": 53.347
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864014,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813169,
+                "sunset": 1740852154
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "GRANGEGORMAN LOWER (NORTH)",
+            "lat": 53.355954,
+            "lng": -6.278378
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2761,
+                "lat": 53.3594
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.83,
+                "feels_like": 7.13,
+                "temp_min": 7.43,
+                "temp_max": 8.18,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 3315319,
+            "name": "Cabra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "ST. STEPHEN'S GREEN EAST",
+            "lat": 53.337824,
+            "lng": -6.256035
+        },
+        "data": {
+            "coord": {
+                "lon": -6.263,
+                "lat": 53.336
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852146
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "HEUSTON STATION (CENTRAL)",
+            "lat": 53.346603,
+            "lng": -6.296924
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2978,
+                "lat": 53.347
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864014,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813169,
+                "sunset": 1740852154
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "TOWNSEND STREET",
+            "lat": 53.345922,
+            "lng": -6.254614
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "GEORGES LANE",
+            "lat": 53.35023,
+            "lng": -6.279696
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2782,
+                "lat": 53.3496
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.52,
+                "temp_max": 8.27,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852149
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "PHIBSBOROUGH ROAD",
+            "lat": 53.356307,
+            "lng": -6.273717
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2656,
+                "lat": 53.3581
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.87,
+                "feels_like": 7.17,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864013,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813163,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 6691027,
+            "name": "Drumcondra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "ECCLES STREET",
+            "lat": 53.359246,
+            "lng": -6.269779
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2656,
+                "lat": 53.3581
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.87,
+                "feels_like": 7.17,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864013,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813163,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 6691027,
+            "name": "Drumcondra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:12",
+        "location": {
+            "station": "PORTOBELLO HARBOUR",
+            "lat": 53.330362,
+            "lng": -6.265163
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2654,
+                "lat": 53.3341
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813160,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2963280,
+            "name": "Kilmainham",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "MATER HOSPITAL",
+            "lat": 53.359967,
+            "lng": -6.264828
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "BLESSINGTON STREET",
+            "lat": 53.356769,
+            "lng": -6.26814
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2656,
+                "lat": 53.3581
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.87,
+                "feels_like": 7.17,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864013,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813163,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 6691027,
+            "name": "Drumcondra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "JAMES STREET",
+            "lat": 53.343456,
+            "lng": -6.287409
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2877,
+                "lat": 53.3423
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.88,
+                "feels_like": 7.19,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864012,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813167,
+                "sunset": 1740852152
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "MOUNTJOY SQUARE EAST",
+            "lat": 53.356717,
+            "lng": -6.256359
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "MERRION SQUARE WEST",
+            "lat": 53.339764,
+            "lng": -6.251988
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "CONVENTION CENTRE",
+            "lat": 53.34744,
+            "lng": -6.238523
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2442,
+                "lat": 53.3478
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 8.01,
+                "feels_like": 7.33,
+                "temp_min": 7.57,
+                "temp_max": 8.32,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "HARDWICKE STREET",
+            "lat": 53.355473,
+            "lng": -6.264423
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:13",
+        "location": {
+            "station": "PARKGATE STREET",
+            "lat": 53.347972,
+            "lng": -6.291804
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2852,
+                "lat": 53.3475
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813166,
+                "sunset": 1740852151
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "SMITHFIELD",
+            "lat": 53.347692,
+            "lng": -6.278214
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2782,
+                "lat": 53.3496
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.52,
+                "temp_max": 8.27,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852149
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "DAME STREET",
+            "lat": 53.344007,
+            "lng": -6.266802
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2701,
+                "lat": 53.3434
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "HEUSTON BRIDGE (SOUTH)",
+            "lat": 53.347106,
+            "lng": -6.292041
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2852,
+                "lat": 53.3475
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813166,
+                "sunset": 1740852151
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "CATHAL BRUGHA STREET",
+            "lat": 53.352149,
+            "lng": -6.260533
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2553,
+                "lat": 53.3515
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864008,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "SANDWITH STREET",
+            "lat": 53.345203,
+            "lng": -6.247163
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "BUCKINGHAM STREET LOWER",
+            "lat": 53.353331,
+            "lng": -6.249319
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2547,
+                "lat": 53.3483
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.99,
+                "feels_like": 7.31,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864006,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "ROTHE ABBEY",
+            "lat": 53.338776,
+            "lng": -6.30395
+        },
+        "data": {
+            "coord": {
+                "lon": -6.3002,
+                "lat": 53.339
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.46,
+                "temp_max": 8.21,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813169,
+                "sunset": 1740852155
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:14",
+        "location": {
+            "station": "CHARLEVILLE ROAD",
+            "lat": 53.359157,
+            "lng": -6.281866
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2761,
+                "lat": 53.3594
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.83,
+                "feels_like": 7.13,
+                "temp_min": 7.43,
+                "temp_max": 8.18,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852147
+            },
+            "timezone": 0,
+            "id": 3315319,
+            "name": "Cabra",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "PRINCES STREET / O'CONNELL STREET",
+            "lat": 53.349013,
+            "lng": -6.260311
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2553,
+                "lat": 53.3515
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.98,
+                "feels_like": 7.3,
+                "temp_min": 7.55,
+                "temp_max": 8.3,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864008,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "UPPER SHERRARD STREET",
+            "lat": 53.358437,
+            "lng": -6.260641
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "FITZWILLIAM SQUARE EAST",
+            "lat": 53.335211,
+            "lng": -6.2509
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "GRATTAN STREET",
+            "lat": 53.339629,
+            "lng": -6.243778
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2415,
+                "lat": 53.338
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.51,
+                "temp_max": 8.26,
+                "pressure": 1036,
+                "humidity": 88,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813155,
+                "sunset": 1740852141
+            },
+            "timezone": 0,
+            "id": 2961816,
+            "name": "Ringsend",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "ST JAMES HOSPITAL (LUAS)",
+            "lat": 53.341359,
+            "lng": -6.292951
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2877,
+                "lat": 53.3423
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.88,
+                "feels_like": 7.19,
+                "temp_min": 7.45,
+                "temp_max": 8.2,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864012,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813167,
+                "sunset": 1740852152
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "HARCOURT TERRACE",
+            "lat": 53.332763,
+            "lng": -6.257942
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2585,
+                "lat": 53.3343
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.95,
+                "feels_like": 7.27,
+                "temp_min": 7.48,
+                "temp_max": 8.23,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813159,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:15",
+        "location": {
+            "station": "BOLTON STREET",
+            "lat": 53.351182,
+            "lng": -6.269859
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "JERVIS STREET",
+            "lat": 53.3483,
+            "lng": -6.266651
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "ORMOND QUAY UPPER",
+            "lat": 53.346057,
+            "lng": -6.268001
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2653,
+                "lat": 53.3537
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "GRANGEGORMAN LOWER (SOUTH)",
+            "lat": 53.354663,
+            "lng": -6.278681
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2782,
+                "lat": 53.3496
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.52,
+                "temp_max": 8.27,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852149
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "MOUNTJOY SQUARE WEST",
+            "lat": 53.356299,
+            "lng": -6.258586
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2632,
+                "lat": 53.357
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.91,
+                "feels_like": 7.22,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813162,
+                "sunset": 1740852145
+            },
+            "timezone": 0,
+            "id": 7778677,
+            "name": "Dublin City",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "WILTON TERRACE",
+            "lat": 53.332383,
+            "lng": -6.252717
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2483,
+                "lat": 53.3337
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.49,
+                "temp_max": 8.24,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864008,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813156,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 3315295,
+            "name": "Ranelagh",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "EMMET ROAD",
+            "lat": 53.340714,
+            "lng": -6.308191
+        },
+        "data": {
+            "coord": {
+                "lon": -6.31,
+                "lat": 53.3421
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.89,
+                "feels_like": 7.2,
+                "temp_min": 7.47,
+                "temp_max": 8.22,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1018
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864009,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813172,
+                "sunset": 1740852157
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "HEUSTON BRIDGE (NORTH)",
+            "lat": 53.347802,
+            "lng": -6.292432
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2852,
+                "lat": 53.3475
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.97,
+                "feels_like": 7.29,
+                "temp_min": 7.55,
+                "temp_max": 8.29,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1020
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864007,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813166,
+                "sunset": 1740852151
+            },
+            "timezone": 0,
+            "id": 6691018,
+            "name": "Maryland",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "LEINSTER STREET SOUTH",
+            "lat": 53.34218,
+            "lng": -6.254485
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2481,
+                "lat": 53.3366
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.96,
+                "feels_like": 7.28,
+                "temp_min": 7.5,
+                "temp_max": 8.25,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1019
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864005,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813157,
+                "sunset": 1740852143
+            },
+            "timezone": 0,
+            "id": 2962486,
+            "name": "Mountjoy",
+            "cod": 200
+        }
+    },
+    {
+        "timestamp": "2025-03-01 21:20:16",
+        "location": {
+            "station": "BLACKHALL PLACE",
+            "lat": 53.3488,
+            "lng": -6.281637
+        },
+        "data": {
+            "coord": {
+                "lon": -6.2782,
+                "lat": 53.3496
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04n"
+                }
+            ],
+            "base": "stations",
+            "main": {
+                "temp": 7.94,
+                "feels_like": 7.25,
+                "temp_min": 7.52,
+                "temp_max": 8.27,
+                "pressure": 1036,
+                "humidity": 89,
+                "sea_level": 1036,
+                "grnd_level": 1021
+            },
+            "visibility": 10000,
+            "wind": {
+                "speed": 1.54,
+                "deg": 200
+            },
+            "clouds": {
+                "all": 75
+            },
+            "dt": 1740864004,
+            "sys": {
+                "type": 2,
+                "id": 2031847,
+                "country": "IE",
+                "sunrise": 1740813165,
+                "sunset": 1740852149
+            },
+            "timezone": 0,
+            "id": 2964574,
+            "name": "Dublin",
+            "cod": 200
+        }
+    }
+]
