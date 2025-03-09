@@ -24,7 +24,7 @@ def get_weather():
 def get_stations():
     conn, cursor = get_db_connection()
 
-    cursor.execute("SELECT * FROM bikes")
+    cursor.execute("SELECT * FROM bike_stations")
     res = cursor.fetchall()
 
     columns = [desc[0] for desc in cursor.description]  # Get column names
@@ -39,7 +39,7 @@ def search_suggestions():
     query = request.args.get('query', '')
     if len(query) >= 3:
         conn, cursor = get_db_connection()
-        cursor.execute("SELECT * FROM bikes WHERE name LIKE %s", (f"{query}%",))
+        cursor.execute("SELECT * FROM bike_stations WHERE name LIKE %s", (f"{query}%",))
         res = cursor.fetchall()
         columns = [desc[0] for desc in cursor.description]  # Get column names
         res = [dict(zip(columns, row)) for row in res]

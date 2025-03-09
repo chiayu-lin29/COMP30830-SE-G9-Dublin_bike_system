@@ -10,18 +10,36 @@ function setStart(){
     }
 }
 
-function setDest(){
+function setDest() {
     const input = document.getElementById("route-input-dest");
-    if (destinationLoc && destinationLoc.address){  
+    if (destinationLoc && destinationLoc.address) {
+        console.log("Updating Destination Input:", destinationLoc.address);
         input.value = destinationLoc.address;
+    } else {
+        console.warn("No destination selected yet.");
     }
 }
 
 
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     document.querySelector(".close-nav").addEventListener("click", navHide);
+// });
+
 document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("route-input").addEventListener("input", function(){
+        searchSuggestions("route-input", "starting-suggestions");
+    });
+
+    document.getElementById("route-input-dest").addEventListener("input", function(){
+        searchSuggestions("route-input-dest", "destination-suggestions");
+    });
+
     document.querySelector(".close-nav").addEventListener("click", navHide);
 });
+
+
+
 function navHide() {
     const navElement = document.getElementById("nav-container"); 
 
@@ -98,8 +116,7 @@ function clickEndSuggestion(station){
 }
 
 function displaySuggestions(destLoc, suggestions){
-    console.log(suggestions);
-    console.log(destLoc);
+    console.log("Suggestions Data:", suggestions);
     const suggestionsContainer = document.getElementById(destLoc);
     suggestionsContainer.innerHTML = '';
 
@@ -110,10 +127,17 @@ function displaySuggestions(destLoc, suggestions){
             suggestionBikes.classList.add("suggestion-bikes");
             suggestionElement.classList.add("suggestion-element");
 
+            // **顯示站點名稱**
+            const nameElement = document.createElement("h2");
+            nameElement.textContent = suggestion.name || "Unknown";
+            suggestionElement.appendChild(nameElement);
+
+
             // Create and append a <h1> element for available bikes
-            const availableBikes = document.createElement("h2");
-            availableBikes.textContent = suggestion.availableBikes;
-            suggestionBikes.appendChild(availableBikes);
+            // availableBikes --> bikes
+            const bikes = document.createElement("h2");
+            bikes.textContent = suggestion.bikes;
+            suggestionBikes.appendChild(bikes);
 
             // Create and append the icon
             const bikeIcon = document.createElement("i");
@@ -180,8 +204,19 @@ function renderRoutes() {
 }
 
 
-function stationToStation(){
-    updateRoute(startingLoc.latitude, startingLoc.longitude, destinationLoc.latitude, destinationLoc.longitude)
-    setTimeout(() => renderRoutes(), 400);
-}
+// function stationToStation(){
+//     if (!startingLoc.latitude || !startingLoc.longitude || !destinationLoc.latitude || !destinationLoc.longitude) {
+//         console.error("Error: Missing coordinates for route", {
+//             startingLoc, destinationLoc
+//         });
+//         return;
+//     }
+
+//     updateRoute(
+//         startingLoc.latitude, startingLoc.longitude, 
+//         destinationLoc.latitude, destinationLoc.longitude
+//     );
+    
+//     setTimeout(() => renderRoutes(), 400);
+// }
 
