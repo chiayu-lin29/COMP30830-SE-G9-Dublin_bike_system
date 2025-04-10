@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/map.css')}}">
+    <script src="https://kit.fontawesome.com/6ab48ccb21.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        {% include 'nav.html' %}
+        
+        <div class="map-container" style="position: relative;">
+            {% include 'weather.html' %}
+            <div class="station-search">
+                <label class="station-search-container">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text">
+                </label>
+            </div>
+            <div class="open-search">
+                <button onclick="showSearch()" class="open-search-button"><i class="fa-solid fa-diamond-turn-right"></i></button>
+            </div>
+            <div class="" id="map" style="height: 100%; width: 100%; z-index: 5;"></div>
+        </div>
+    </div>
+
+  <!-- Google Maps API with your API Key -->
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuARHzyEePZlZtcn0oF2AgAHorlScQuok&loading=async&callback=initMap&libraries=marker">
+</script>
+
+    <script src="{{ url_for('static', filename='js/mapFunctions.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/navFunctions.js') }}"></script>
+   
+</body>
+</html>
