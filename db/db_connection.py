@@ -27,7 +27,7 @@ def get_db_connection():
         host="localhost",
         user="root",
         password="2025!Group9",
-        database="SWE"
+        database="dbbikes"
     )
     cursor = conn.cursor()
     return conn, cursor
