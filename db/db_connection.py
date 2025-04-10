@@ -24,10 +24,10 @@ import mysql.connector
 def get_db_connection():
     """Returns a MySQL connection object and cursor."""
     conn = mysql.connector.connect(
-        host="16.16.13.59",
+        host="localhost",
         user="root",
         password="2025!Group9",
-        database="dbbikes"
+        database="SWE"
     )
     cursor = conn.cursor()
     return conn, cursor
