@@ -1,13 +1,14 @@
 // Initialize and add the map
 let map;
-let sourceMarker;
-let destMarker;
-let selectionMode = false;
 let directionsService;
 let directionsRenderer;
 let selectingDestination = false;
+let sourceMarker;
+let destMarker;
+let selectionMode = false;
 let stations;
-
+let searchMode = false;
+let searchSource = false;
 
 async function initMap() {
     const { Map } = await google.maps.importLibrary("maps");
@@ -33,19 +34,18 @@ async function initMap() {
             if (searchSource){
                 sourceMarker = setMarker(event.latLng, sourceMarker, "#006400");
                 markerToStn(sourceMarker, true);
-            }else{
+            } else {
                 destMarker = setMarker(event.latLng, destMarker, "#8B0000");
                 markerToStn(destMarker, false);
             }
-                
         }
-    })
+    });
 
     fetch('/stations')
         .then(response => response.json())
         .then(data => {
-            console.log("test", data)
-            stations = data.stations
+            console.log("test", data);
+            stations = data.stations;
             data.stations.forEach((station) => {
                 const pin = new PinElement({
                     background: "#001f3d",
@@ -87,10 +87,8 @@ async function initMap() {
         .catch(error => console.error("Error fetching data:", error));
 }
 
-function setMarker(loc, marker, colour){
-
-    console.log(marker)
-    if (marker){
+function setMarker(loc, marker, colour) {
+    if (marker) {
         marker.setMap(null);
     }
 
@@ -105,7 +103,6 @@ function setMarker(loc, marker, colour){
         map: map,
         content: pin.element
     });
-    console.log(marker)
 
     searchMode = false;
     return marker;
@@ -148,10 +145,10 @@ async function markerToStn(marker, start){
     const lat = pos["wC"];
     const long = pos["xC"];
     const addr = await getStreetName(lat, long);
-    const obj = {"address": addr, "latitude": pos["wC"], "longitude": pos["xC"]}
+    const obj = { "address": addr, "latitude": lat, "longitude": long };
     if (start){
         clickStartSuggestion(obj);
-    }else{
+    } else {
         clickEndSuggestion(obj);
     }
 }
@@ -171,7 +168,7 @@ function getStreetName(lat, lng) {
                 });
 
                 console.log("Street Name:", streetName);
-                resolve(streetName); // Return the street name
+                resolve(streetName);
             } else {
                 console.error("Geocoder failed due to: " + status);
                 reject("No street name found");
@@ -179,4 +176,5 @@ function getStreetName(lat, lng) {
         });
     });
 }
+
 initMap();
