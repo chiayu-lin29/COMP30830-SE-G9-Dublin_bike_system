@@ -6,7 +6,7 @@ def get_db_connection():
         host="localhost",  # e.g., "localhost"
         user="root",
         password="2025!Group9",
-        database="SWE"
+        database="dbbikes"
         )
     cursor = conn.cursor()
     return conn, cursor
