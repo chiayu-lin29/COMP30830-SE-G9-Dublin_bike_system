@@ -62,12 +62,25 @@ def search_suggestions():
         return jsonify({"stations":res})
     return jsonify({'suggestions': []})
 
-@app.route('/bike_predict', methods=['GET'])
+# @app.route('/bike_predict', methods=['GET'])
+# def bike_predict():
+#     station_id = request.args.get("station_id")
+#     times, predictions = bikes_predict(station_id)
+#     print(times)
+#     return jsonify({'times': times, 'predictions': predictions})
+
+@app.route('/bike_predict', methods=['GET', 'POST'])
 def bike_predict():
-    station_id = request.args.get("station_id")
+    if request.method == 'POST':
+        station_id = request.get_json().get("station_number")
+    else:
+        station_id = request.args.get("station_id")
+
     times, predictions = bikes_predict(station_id)
     print(times)
     return jsonify({'times': times, 'predictions': predictions})
+
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5500, debug=True)
