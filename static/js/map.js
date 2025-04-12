@@ -1,19 +1,14 @@
 // Initialize and add the map
 let map;
-<<<<<<< HEAD
 let directionsService;
 let directionsRenderer;
 let selectingDestination = false;
-=======
 let sourceMarker;
 let destMarker;
 let selectionMode = false;
-let directionsService;
-let directionsRenderer;
-let selectingDestination = false;
 let stations;
-
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
+let searchMode = false;
+let searchSource = false;
 
 async function initMap() {
     const { Map } = await google.maps.importLibrary("maps");
@@ -34,39 +29,28 @@ async function initMap() {
         fullscreenControl: false
     });
 
-<<<<<<< HEAD
-=======
     map.addListener("click", function(event) {
         if (searchMode){
             if (searchSource){
                 sourceMarker = setMarker(event.latLng, sourceMarker, "#006400");
                 markerToStn(sourceMarker, true);
-            }else{
+            } else {
                 destMarker = setMarker(event.latLng, destMarker, "#8B0000");
                 markerToStn(destMarker, false);
             }
-                
         }
-    })
+    });
 
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
     fetch('/stations')
         .then(response => response.json())
         .then(data => {
-            console.log("test", data)
-<<<<<<< HEAD
-=======
-            stations = data.stations
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
+            console.log("test", data);
+            stations = data.stations;
             data.stations.forEach((station) => {
                 const pin = new PinElement({
                     background: "#001f3d",
                     borderColor: "#ffffff",
-<<<<<<< HEAD
-                    glyph: `${station.bikes || 0}`,
-=======
                     glyph: `${station.availableBikes || 0}`,
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                     glyphColor: "#ffffff",
                 });
 
@@ -91,13 +75,8 @@ async function initMap() {
                         updateNavbar(
                             station.number,
                             station.address,
-<<<<<<< HEAD
-                            station.mechanical_bikes || 0,
-                            station.electrical_bikes || 0,
-=======
                             station.mechBikes || 0,
                             station.elecBikes || 0,
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                             station.capacity || "N/A"
                         );
                         navDisplay();
@@ -108,12 +87,8 @@ async function initMap() {
         .catch(error => console.error("Error fetching data:", error));
 }
 
-<<<<<<< HEAD
-=======
-function setMarker(loc, marker, colour){
-
-    console.log(marker)
-    if (marker){
+function setMarker(loc, marker, colour) {
+    if (marker) {
         marker.setMap(null);
     }
 
@@ -128,13 +103,11 @@ function setMarker(loc, marker, colour){
         map: map,
         content: pin.element
     });
-    console.log(marker)
 
     searchMode = false;
     return marker;
 }
 
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 function selectDestination() {
     console.log("Switching to destination selection mode...");
     selectingDestination = true;
@@ -157,8 +130,6 @@ function setDest() {
     }
 }
 
-<<<<<<< HEAD
-=======
 document.getElementById("route-input").addEventListener("click", function() {
     searchMode = true;
     searchSource = true;
@@ -174,10 +145,10 @@ async function markerToStn(marker, start){
     const lat = pos["wC"];
     const long = pos["xC"];
     const addr = await getStreetName(lat, long);
-    const obj = {"address": addr, "latitude": pos["wC"], "longitude": pos["xC"]}
+    const obj = { "address": addr, "latitude": lat, "longitude": long };
     if (start){
         clickStartSuggestion(obj);
-    }else{
+    } else {
         clickEndSuggestion(obj);
     }
 }
@@ -197,7 +168,7 @@ function getStreetName(lat, lng) {
                 });
 
                 console.log("Street Name:", streetName);
-                resolve(streetName); // Return the street name
+                resolve(streetName);
             } else {
                 console.error("Geocoder failed due to: " + status);
                 reject("No street name found");
@@ -205,5 +176,5 @@ function getStreetName(lat, lng) {
         });
     });
 }
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
+
 initMap();
