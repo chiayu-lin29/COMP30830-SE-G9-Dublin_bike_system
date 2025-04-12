@@ -1,7 +1,28 @@
+<<<<<<< HEAD
 var startingLoc = {};
 var destinationLoc = {};
 
 var routes = [];
+=======
+var searchMode = false;
+var searchSource = true;
+
+var startingLoc = {"address": "Leinster Street South",
+  "availableBikes": 27,
+  "capacity": 30,
+  "elecBikes": 8,
+  "id": 113,
+  "latitude": 53.3422,
+  "longitude": -6.25449,
+  "mechBikes": 19,
+  "name": "LEINSTER STREET SOUTH",
+  "number": 21};
+var destinationLoc = {};
+
+var routes = [];
+let bikesChart;
+let parkChart;
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 
 function setStart(){
     const input = document.getElementById("route-input");
@@ -64,11 +85,205 @@ function navDisplay() {
     navElement.style.opacity = "1";
     navElement.style.paddingLeft = "10px";
     navElement.style.paddingRight = "10px";
+<<<<<<< HEAD
 }
 
 function showDirections(){
     let info = document.getElementById("info-container");
     let directions = document.getElementById("directions-container");
+=======
+
+    plot_station_predictions(startingLoc.id)
+}
+
+function plot_station_predictions(station_id){
+    fetch(`/bike_predict?station_id=${station_id}`)
+    .then(response => response.json())
+    .then(data => {
+        const times = data.times;
+        const capacity = startingLoc.capacity
+        let predictions = data.predictions;
+        predictions = predictions.map(pred => pred > capacity ? capacity : pred).map(pred => pred < 0 ? 0 : pred);
+        
+        chartBikes(times, predictions)
+        const park = predictions.map(num => startingLoc.capacity - num);
+        chartPark(times, park)
+    })
+}
+
+function chartBikes(times, predictions){
+    const ctx = document.getElementById('bike-chart').getContext('2d');
+    // Destroy the previous chart instance if it exists
+    if (bikesChart) {
+        bikesChart.destroy();
+    }
+
+    // Create a new chart
+    bikesChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: times,
+            datasets: [{
+                label: 'Available Bikes',
+                data: predictions,
+                backgroundColor: '#001f3d',  // Softer fill color
+                borderColor: '#001f3d',  // Darker border
+                borderWidth: 2,
+                hoverBackgroundColor: '#001f3d',  // Highlight on hover
+                hoverBorderColor: 'rgba(255, 99, 132, 1)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: true,
+                    labels: {
+                        color: '#333',  // Darker text for better contrast
+                        font: {
+                            size: 14
+                        }
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',  // Dark tooltip background
+                    titleFont: { size: 14 },
+                    bodyFont: { size: 12 },
+                    padding: 10
+                }
+            },
+            scales: {
+                x: {
+                    type: 'category',
+                    title: {
+                        display: true,
+                        text: 'Time',
+                        color: '#444',
+                        font: {
+                            size: 14,
+                            weight: 'bold'
+                        }
+                    },
+                    grid: {
+                        display: false  // Remove vertical grid lines
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Predictions',
+                        color: '#444',
+                        font: {
+                            size: 14,
+                            weight: 'bold'
+                        }
+                    },
+                    grid: {
+                        color: 'rgba(200, 200, 200, 0.3)'  // Lighten the grid
+                    },
+                    ticks: {
+                        beginAtZero: true,
+                        stepSize: 1  // Ensures integer steps
+                    }
+                }
+            }
+        }
+    });
+    
+}
+
+
+function chartPark(times, predictions){
+    const ctx = document.getElementById('park-chart').getContext('2d');
+    // Destroy the previous chart instance if it exists
+    if (parkChart) {
+        parkChart.destroy();
+    }
+
+    // Create a new chart
+    parkChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: times,
+            datasets: [{
+                label: 'Available Parking',
+                data: predictions,
+                backgroundColor: '#001f3d',  // Softer fill color
+                borderColor: '#001f3d',  // Darker border
+                borderWidth: 2,
+                hoverBackgroundColor: '#001f3d',  // Highlight on hover
+                hoverBorderColor: 'rgba(255, 99, 132, 1)'
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: true,
+                    labels: {
+                        color: '#333',  // Darker text for better contrast
+                        font: {
+                            size: 14
+                        }
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)',  // Dark tooltip background
+                    titleFont: { size: 14 },
+                    bodyFont: { size: 12 },
+                    padding: 10
+                }
+            },
+            scales: {
+                x: {
+                    type: 'category',
+                    title: {
+                        display: true,
+                        text: 'Time',
+                        color: '#444',
+                        font: {
+                            size: 14,
+                            weight: 'bold'
+                        }
+                    },
+                    grid: {
+                        display: false  // Remove vertical grid lines
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Predictions',
+                        color: '#444',
+                        font: {
+                            size: 14,
+                            weight: 'bold'
+                        }
+                    },
+                    grid: {
+                        color: 'rgba(200, 200, 200, 0.3)'  // Lighten the grid
+                    },
+                    ticks: {
+                        beginAtZero: true,
+                        stepSize: 1  // Ensures integer steps
+                    }
+                }
+            }
+        }
+    });
+    
+}
+
+
+function showDirections(){
+    let info = document.getElementById("info-container");
+    let directions = document.getElementById("directions-container");
+    searchMode = true;
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 
     info.style.display = "none";  
     directions.style.display = "flex";  
@@ -77,11 +292,23 @@ function showDirections(){
 function hideDirections(){
     let info = document.getElementById("info-container");
     let directions = document.getElementById("directions-container");
+<<<<<<< HEAD
+=======
+    searchMode = false;
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 
     info.style.display = "flex";  
     directions.style.display = "none";
 }
 
+<<<<<<< HEAD
+=======
+function showSearch(){
+    navDisplay();
+    showDirections();
+}
+
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 
 
 function searchSuggestions(searchLoc, destLoc){
@@ -99,11 +326,18 @@ function searchSuggestions(searchLoc, destLoc){
 
 function clickStartSuggestion(station){
     startingLoc = station;
+<<<<<<< HEAD
     setStart();
     const suggestionsContainer = document.getElementById("starting-suggestions");
     suggestionsContainer.innerHTML = '';
     console.log(startingLoc);
     console.log(destinationLoc);
+=======
+    console.log(startingLoc);
+    setStart();
+    const suggestionsContainer = document.getElementById("starting-suggestions");
+    suggestionsContainer.innerHTML = '';
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 }
 
 function clickEndSuggestion(station){
@@ -111,8 +345,11 @@ function clickEndSuggestion(station){
     setDest();
     const suggestionsContainer = document.getElementById("destination-suggestions");
     suggestionsContainer.innerHTML = '';
+<<<<<<< HEAD
     console.log(startingLoc);
     console.log(destinationLoc);
+=======
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 }
 
 function displaySuggestions(destLoc, suggestions){
@@ -163,6 +400,38 @@ function displaySuggestions(destLoc, suggestions){
     }
 }
 
+<<<<<<< HEAD
+=======
+function haversineDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Radius of the Earth in km
+    const dLat = (lat2 - lat1) * (Math.PI / 180);
+    const dLon = (lon2 - lon1) * (Math.PI / 180);
+
+    const a = 
+        Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    return R * c; // Distance in km
+}
+
+function findClosestStation(currentLat, currentLon) {
+    let closestStation = null;
+    let minDistance = Infinity;
+    console.log(stations)
+    stations.forEach(station => {
+        const distance = haversineDistance(currentLat, currentLon, station.latitude, station.longitude);
+        if (distance < minDistance) {
+            minDistance = distance;
+            closestStation = station;
+        }
+    });
+
+    return closestStation;
+}
+
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 function renderRoutes() {
     const routeContainer = document.getElementById("routes");
     routeContainer.innerHTML = "";
@@ -175,6 +444,7 @@ function renderRoutes() {
             path.textContent = `${route.start} - ${route.destination}`;
             routeElement.appendChild(path);
 
+<<<<<<< HEAD
             // Create the div for time
             const timeElement = document.createElement("div");
             timeElement.classList.add("route-element-time");  // Fixed here
@@ -196,6 +466,40 @@ function renderRoutes() {
             distanceElement.appendChild(distanceIcon);
             distanceElement.appendChild(distanceElementText);
             routeElement.appendChild(distanceElement);
+=======
+            // Create the div for first
+            const firstElement = document.createElement("div");
+            firstElement.classList.add("route-element-walk");  // Fixed here
+            const firstElementText = document.createElement("h4");
+            firstElementText.textContent = route.first;
+            const firstIcon = document.createElement("i");
+            firstIcon.classList.add("fas", "fa-walking");
+            firstElement.appendChild(firstIcon);
+            firstElement.appendChild(firstElementText);
+            routeElement.appendChild(firstElement);
+
+            // Create the div for second
+            const secondElement = document.createElement("div");
+            secondElement.classList.add("route-element-bike");  // Fixed here
+            const secondElementText = document.createElement("h4");
+            secondElementText.textContent = route.second;
+            const secondIcon = document.createElement("i");
+            secondIcon.classList.add("fa-solid", "fa-person-biking");
+            secondElement.appendChild(secondIcon);
+            secondElement.appendChild(secondElementText);
+            routeElement.appendChild(secondElement);
+
+            // Create the div for third
+            const thirdElement = document.createElement("div");
+            thirdElement.classList.add("route-element-walk");  // Fixed here
+            const thirdElementText = document.createElement("h4");
+            thirdElementText.textContent = route.third;
+            const thirdIcon = document.createElement("i");
+            thirdIcon.classList.add("fas", "fa-walking");
+            thirdElement.appendChild(thirdIcon);
+            thirdElement.appendChild(thirdElementText);
+            routeElement.appendChild(thirdElement);
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
 
             // Append the final route element to the container
             routeContainer.appendChild(routeElement);

@@ -17,8 +17,17 @@
         </div>
         <div class="divider"></div>
         <div class="display-statistics-bikes">
+<<<<<<< HEAD
         <div><button>adsf</button></div>
         <div><button>asdf</button></div>
+=======
+            <div class="bike-chart">
+                <canvas id="bike-chart"></canvas>
+            </div>
+            <div class="park-chart">
+                <canvas id="park-chart"></canvas>
+            </div>
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
         </div>
 
     </div>
@@ -32,7 +41,11 @@
                 <label class="route-search">
                     <div class="search">
                         <i style="color:#006400" class="route-icon fa-solid fa-location-dot"></i>
+<<<<<<< HEAD
                         <input id="route-input" class="route-input" type="text" name="from" placeholder="Starting Station ..." oninput="searchSuggestions('route-input','starting-suggestions')"/>
+=======
+                        <input id="route-input" class="route-input" type="text" name="from" placeholder="Starting Station ..." oninput="searchSuggestions('route-input','starting-suggestions')" autocomplete="off" />
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                     </div>
                     <div id="starting-suggestions">
     
@@ -42,7 +55,11 @@
                 <label class="route-search">
                     <div class="search">
                             <i style="color:#8B0000" class="route-icon fa-solid fa-location-dot"></i>
+<<<<<<< HEAD
                             <input id="route-input-dest" class="route-input" type="text" name="from" placeholder="Destination Station ..." oninput="searchSuggestions('route-input-dest','destination-suggestions')"/>
+=======
+                            <input id="route-input-dest" class="route-input" type="text" name="from" placeholder="Destination Station ..." oninput="searchSuggestions('route-input-dest','destination-suggestions')" autocomplete="off" />
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                     </div>
                     <div id="destination-suggestions">
     
@@ -51,6 +68,11 @@
             </div>
 
             <div class="search-button-container">
+<<<<<<< HEAD
+=======
+                <button class="button search-button" onclick="stationToStation()">Station</button>
+                <button class="button search-button" onclick="stationToStation()">Click</button>
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                 <button class="button search-button" onclick="stationToStation()">Search</button>
             </div>
 
@@ -63,4 +85,7 @@
     </div>
 </nav>
 
+<<<<<<< HEAD
 <script src="{{ url_for('static', filename='js/navFunctions.js') }}"></script>
+=======
+>>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c

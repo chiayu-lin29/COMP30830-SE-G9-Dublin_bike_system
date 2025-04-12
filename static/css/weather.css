@@ -1,0 +1,71 @@
+.weather-container{
+    position: absolute;
+    float: left;
+    margin: 10px;
+    background-color: transparent;
+    z-index: 10;
+    width: 5rem;
+
+}
+
+.weather-button{
+    width: 100%;
+}
+
+.button-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-button h1{
+    color: white;
+    font-size: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.weather-button i {
+    font-size: 1rem;
+    color: white;
+}
+
+.weather-chart-title{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+.weather-chart-container {
+    position: fixed;          /* Position relative to the viewport */
+    top: 50%;                 /* Move the container vertically to the center */
+    left: 50%;                /* Move the container horizontally to the center */
+    transform: translate(-50%, -50%);  /* Adjust back by half of its width and height */
+    width: 50%;               /* Set the width */
+    height: auto;              /* Set the height */
+    background-color: white;  /* Background color */
+    border-radius: 25px;      /* Round the corners */
+    z-index: 9999;            /* Ensure it's on top of everything else */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.weather-chart-buttons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.weather-chart-close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
