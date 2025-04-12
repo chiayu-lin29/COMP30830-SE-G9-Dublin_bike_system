@@ -1,7 +1,7 @@
 #test OpenWeather API + feature preprocessing
 
 import unittest
-from get_weather_info import get_features
+from ML.get_weather_info import get_features
 
 class TestWeatherFeature(unittest.TestCase):
     def test_feature_shape(self):

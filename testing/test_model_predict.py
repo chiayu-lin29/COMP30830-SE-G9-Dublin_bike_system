@@ -1,6 +1,6 @@
 #test if model is successful call
 import unittest
-from model_predict import bikes_predict
+from ML.model_predict import bikes_predict
 
 class TestModel(unittest.TestCase):
     def test_prediction_output(self):
