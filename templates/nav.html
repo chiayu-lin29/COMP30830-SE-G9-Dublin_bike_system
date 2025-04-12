@@ -1,4 +1,3 @@
-
 <nav class="nav-container" id="nav-container">
     <div class="close">
         <button class="button close-nav"><i class="fa-solid fa-xmark"></i></button>
@@ -13,79 +12,61 @@
             <div class="icon"><h1 id="electricalBikes">12</h1><i class="icon-fa fa-solid fa-motorcycle"></i></div>
             <div class="icon"><h1 id="stands">6</h1><i class="icon-fa fa-solid fa-square-parking"></i></div>
             
-            <div class="icon bike-trip"><button style="background-color: transparent; border: none; cursor: pointer;" onClick="showDirections()"><i  style="font-size: 1.25rem;" class="fa-solid fa-diamond-turn-right"></i></button></div>
+            <div class="icon bike-trip">
+                <button style="background-color: transparent; border: none; cursor: pointer;" onClick="showDirections()">
+                    <i style="font-size: 1.25rem;" class="fa-solid fa-diamond-turn-right"></i>
+                </button>
+            </div>
         </div>
+
         <div class="divider"></div>
         <div class="display-statistics-bikes">
-<<<<<<< HEAD
-        <div><button>adsf</button></div>
-        <div><button>asdf</button></div>
-=======
             <div class="bike-chart">
                 <canvas id="bike-chart"></canvas>
             </div>
             <div class="park-chart">
                 <canvas id="park-chart"></canvas>
             </div>
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
         </div>
-
     </div>
 
-
-
     <div class="directions-container" id="directions-container">
-        <button class="return button" onclick="hideDirections()"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="return button" onclick="hideDirections()">
+            <i class="fa-solid fa-arrow-left"></i>
+        </button>
+
         <div class="search-container">
             <div class="search-inputs">
                 <label class="route-search">
                     <div class="search">
                         <i style="color:#006400" class="route-icon fa-solid fa-location-dot"></i>
-<<<<<<< HEAD
-                        <input id="route-input" class="route-input" type="text" name="from" placeholder="Starting Station ..." oninput="searchSuggestions('route-input','starting-suggestions')"/>
-=======
                         <input id="route-input" class="route-input" type="text" name="from" placeholder="Starting Station ..." oninput="searchSuggestions('route-input','starting-suggestions')" autocomplete="off" />
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                     </div>
-                    <div id="starting-suggestions">
-    
-                    </div>
+                    <div id="starting-suggestions"></div>
                 </label>
+
                 <i style="transform: rotate(90deg)" class="fa-solid fa-ellipsis"></i>
+
                 <label class="route-search">
                     <div class="search">
-                            <i style="color:#8B0000" class="route-icon fa-solid fa-location-dot"></i>
-<<<<<<< HEAD
-                            <input id="route-input-dest" class="route-input" type="text" name="from" placeholder="Destination Station ..." oninput="searchSuggestions('route-input-dest','destination-suggestions')"/>
-=======
-                            <input id="route-input-dest" class="route-input" type="text" name="from" placeholder="Destination Station ..." oninput="searchSuggestions('route-input-dest','destination-suggestions')" autocomplete="off" />
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
+                        <i style="color:#8B0000" class="route-icon fa-solid fa-location-dot"></i>
+                        <input id="route-input-dest" class="route-input" type="text" name="from" placeholder="Destination Station ..." oninput="searchSuggestions('route-input-dest','destination-suggestions')" autocomplete="off" />
                     </div>
-                    <div id="destination-suggestions">
-    
-                    </div>
+                    <div id="destination-suggestions"></div>
                 </label>
             </div>
 
             <div class="search-button-container">
-<<<<<<< HEAD
-=======
                 <button class="button search-button" onclick="stationToStation()">Station</button>
                 <button class="button search-button" onclick="stationToStation()">Click</button>
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
                 <button class="button search-button" onclick="stationToStation()">Search</button>
             </div>
 
             <div style="margin-top: 3rem;" class="divider"></div>
             <h1>Previous Routes:</h1>
-            <div class="routes" id="routes">
-
-            </div>
+            <div class="routes" id="routes"></div>
         </div>
     </div>
 </nav>
 
-<<<<<<< HEAD
 <script src="{{ url_for('static', filename='js/navFunctions.js') }}"></script>
-=======
->>>>>>> e793e1348c6d4d95c49eeb0728d85495a5e3963c
