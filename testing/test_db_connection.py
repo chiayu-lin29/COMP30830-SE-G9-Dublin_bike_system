@@ -1,7 +1,7 @@
 # Test for a successful connection to the database
 # test_db_connection.py
 import unittest
-from SQLpw import USER, PASSWORD, PORT, DB, URI
+from db.SQLpw import USER, PASSWORD, PORT, DB, URI
 import mysql.connector
 
 class TestDBConnection(unittest.TestCase):
