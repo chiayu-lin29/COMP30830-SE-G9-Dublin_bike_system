@@ -2,17 +2,17 @@
 
 Features
 
-Interactive Google Map displaying bike stations
+- Interactive Google Map displaying bike stations
 
-Real-time weather widget via OpenWeather API
+- Real-time weather widget via OpenWeather API
 
-Search and directions between bike stations
+- Search and directions between bike stations
 
-Bike and parking spot predictions (15-min interval)
+- Bike and parking spot predictions (15-min interval)
 
-Historical and forecast weather database
+- Historical and forecast weather database
 
-Unit and integration testing using unittest
+- Unit and integration testing using unittest
 
 
 Project structure
