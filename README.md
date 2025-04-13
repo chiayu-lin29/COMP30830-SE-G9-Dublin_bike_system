@@ -1,5 +1,10 @@
 # COMP30830-SE-G9-Dublin_bike_system
 
+# Team 9 Members
+- Lin, Chiayu
+- Huggard, John
+- Kavanagh, Ellie
+
 Features
 
 - Interactive Google Map displaying bike stations
