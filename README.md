@@ -1,11 +1,11 @@
 # COMP30830-SE-G9-Dublin_bike_system
 
-# Team 9 Members
+## Team 9 Members
 - Lin, Chiayu
 - Huggard, John
 - Kavanagh, Ellie
 
-Features
+## Features (add display..)
 
 - Interactive Google Map displaying bike stations
 
@@ -20,7 +20,7 @@ Features
 - Unit and integration testing using unittest
 
 
-Project structure
+## Project structure
 ```
 COMP30830-SE-G9-Dublin_bike_system/
 ├── app.py                 # Main Flask app
