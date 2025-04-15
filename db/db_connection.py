@@ -39,7 +39,7 @@ def get_db_connection():
     conn = mysql.connector.connect(
         host="localhost",  # e.g., "localhost"
         user="root",
-        password="2005!Group9",
+        password="2025!Group9",
         database="SWE"
     )
     cursor = conn.cursor()
