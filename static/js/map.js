@@ -149,7 +149,7 @@ function getStreetName(lat, lng) {
             if (status === "OK" && results[0]) {
                 console.log("Working");
                 let streetName = "";
-                console.log(results[0]);
+                console.log(results);
                 results[0].address_components.forEach(component => {
                     if (component.types.includes("route")) {
                         streetName = component.long_name;
