@@ -127,9 +127,9 @@ function setMarker(loc, marker, colour){
 async function markerToStn(marker, start){
     const pos = marker["position"];
     console.log("position: ", pos);
-    console.log("Latitude: ", pos["zC"]);
+    console.log("Latitude: ", pos["BC"]);
     console.log("Longitude: ", pos["AC"]);
-    const lat = pos["zC"];
+    const lat = pos["BC"];
     const long = pos["AC"];
     const addr = await getStreetName(lat, long);
     const obj = {"address": addr, "latitude": lat, "longitude": long}
