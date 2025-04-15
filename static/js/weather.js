@@ -35,8 +35,8 @@ async function getWeather(){
     weatherData.forEach(entry => {
         const rawDate = new Date(entry[1])
         times.push(rawDate.toLocaleString('en-US', options));  // Time
-        temperatures.push(entry[2]); // Temperature
-        feelsLike.push(entry[3]);   // Feels Like
+        temperatures.push(entry[2] - 273.15); // Temperature (Test)
+        feelsLike.push(entry[3] - 274.15);   // Feels Like (Test)
         clouds.push(entry[5]);      // Cloud Description
         windSpeeds.push(entry[6]);  // Wind Speed
     });
@@ -102,7 +102,7 @@ async function displayCurrWeather() {
         var weatherIcon = document.createElement("i");
 
         // Assign weather text (e.g., temperature) to weatherText element
-        weatherText.innerText = `${currWeather.temperature}°C`; // Assuming temperature is in Celsius
+        weatherText.innerText = `${currWeather.temperature - 273.15}°C`; // Assuming temperature is in Celsius
 
 
         weatherIcon.className = getWeatherIcon();
