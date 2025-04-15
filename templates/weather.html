@@ -1,0 +1,34 @@
+<div class="weather-container">
+    <button onclick="toggleWeatherChart()" id="weather-button" class="button button-md weather-button"></button>
+</div>
+
+<div id="weather-chart-container" class="weather-chart-container">
+    <button onclick="closeChart()" class="weather-chart-close"><i class="fa-solid fa-xmark icon-sm"></i></button>
+    <div class="weather-header">
+        <div class="weather-header-summary">
+            <i style="font-size:4rem; margin-right: 0.25rem;" id="weather-header-summary-icon" class="primary"></i>
+            <div class="weather-header-temperature"><h1 class="primary" id="weather-header-temp">17</h1><span>°C</span></div>
+            <div class="weather-header-metrics">
+                <h4 id="weather-metric-1" class="weather-header-metric primary">Percipitation: 54%</h4>
+                <h4 id="weather-metric-2" class="weather-header-metric primary">Humidity: 31%</h4>
+                <h4 id="weather-metric-3" class="weather-header-metric primary">WindSpeed: 21%</h4>
+            </div>
+        </div>
+        <div class="weather-header-time">
+            <h1 id="weather-header-time" style="font-size:2rem;" class="primary">11:00, Sunny</h1>
+        </div>
+    </div>
+    <div class="weather-chart">
+        <canvas  id="weather-chart"></canvas>
+    </div>
+    <div class="weather-chart-buttons">
+        <button class="button button-sm weather-chart-button" onclick="chartDoubleLine('weather-chart', 'temperatures', 'feelsLike', 'Temperature °C', 'Feels Like °C', 'Temperature °C')">Temperature</button>
+        <button class="button button-sm weather-chart-button" onclick="chartSingleLine('weather-chart', 'clouds', 'Cloud Coverage %')">Clouds</button>
+        <button class="button button-sm weather-chart-button" onclick="chartSingleLine('weather-chart', 'windSpeeds', 'WindSpeed m/s')">Windspeed</button>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/weather.css') }}">
+<script src="{{ url_for('static', filename='js/weather.js') }}"></script>
+

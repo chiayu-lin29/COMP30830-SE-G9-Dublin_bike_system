@@ -1,0 +1,78 @@
+/*
+APP CSS FILE
+
+This file contains css for general elements to so that the app is congruent. 
+Styles for colours, text, buttons and dividers are defined here.
+*/
+
+
+:root {
+    --dark-navy: #001f3d;
+    --light-navy: #00325c;
+    --light-grey: #F5F5F5;
+    --light-blue: #87CEEB;
+  }
+
+.primary{
+    color: var(--dark-navy);
+}
+
+body {
+    margin: 0;
+    pad: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 0.85rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+h4{
+    font-size: 0.5rem;
+}
+
+.icon-sm{
+    font-size: 1rem;
+}
+
+.button{
+    background-color: var(--dark-navy);
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-sm{
+    border-radius: 0.2rem;
+}
+
+.button-md{
+    border-radius: 0.6rem;
+}
+
+.dividerHz{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 1px;
+    margin: 10px auto;
+}
+
+.dividerVt{
+    border-right: 1px solid white;
+    height: 1.75rem;
+    width: 1px;
+    background-color: transparent;
+}

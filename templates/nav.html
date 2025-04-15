@@ -1,0 +1,84 @@
+
+<nav class="nav-container" id="nav-container">
+    <div class="close">
+        <button onclick="navHide()" class="button button-sm close-nav"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="info-container" id="info-container">
+        <div class="nav-title">
+            <h1 id="station-address">St. Stephens Green</h1>
+            <h2 id="station-number">47</h2>
+        </div>
+        <div class="bike-info">
+            <div class="icon"><h1 id="mechanicalBikes">12</h1><i class="icon-fa fa-solid fa-bicycle"></i></div>
+            <div class="icon"><h1 id="electricalBikes">12</h1><i class="icon-fa fa-solid fa-motorcycle"></i></div>
+            <div class="icon"><h1 id="stands">6</h1><i class="icon-fa fa-solid fa-square-parking"></i></div>
+            
+            <div class="icon bike-trip"><button style="background-color: transparent; border: none; cursor: pointer;" onClick="showDirections()"><i  style="font-size: 1.25rem;" class="fa-solid fa-diamond-turn-right"></i></button></div>
+        </div>
+        <div class="dividerHz"></div>
+        <div class="chart-toggle">
+            <button class="button button-sm" onclick="displayBikeNav()">Bikes</button>
+            <button class="button button-sm" onclick="displayWeatherNav()">Weather</button>
+        </div>
+        <div class="display-statistics-bikes">
+            <div class="bike-chart">
+                <canvas style="height: 100%; width: 100%;" id="bike-chart"></canvas>
+            </div>
+            <div class="park-chart">
+                <canvas style="height: 100%; width: 100%;" id="park-chart"></canvas>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="directions-container" id="directions-container">
+        <button class="return button button-sm" onclick="hideDirections()"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="search-container">
+            <div class="search-inputs">
+                <label class="route-search">
+                    <div class="search">
+                        <i style="color:#006400" class="route-icon fa-solid fa-location-dot"></i>
+                        <input id="route-input" class="route-input" type="text" name="from" placeholder="Starting Station ..." oninput="searchSuggestions('route-input','starting-suggestions')" onclick="clickSourceInput()" autocomplete="off" />
+                    </div>
+                    <div id="starting-suggestions">
+    
+                    </div>
+                </label>
+                <i style="transform: rotate(90deg)" class="fa-solid fa-ellipsis"></i>
+                <label class="route-search">
+                    <div class="search">
+                            <i style="color:#8B0000" class="route-icon fa-solid fa-location-dot"></i>
+                            <input id="route-input-dest" class="route-input" type="text" name="from" placeholder="Destination Station ..." oninput="searchSuggestions('route-input-dest','destination-suggestions')" onclick="clickDestInput()" autocomplete="off" />
+                    </div>
+                    <div id="destination-suggestions">
+    
+                    </div>
+                </label>
+            </div>
+
+            <div class="search-button-container">
+                <button class="button button-sm search-button" onclick="stationToStation()">Search</button>
+            </div>
+
+            <div style="margin-top: 3rem;" class="divider"></div>
+            <div id="directionsText" class="directions-text-container">
+                <button class="directions-text-button button button-sm" onclick="hideDirectionsText()">Close Directions</button>
+                <div style="display: flex; gap: 0.25rem; align-items: center;"><h1>Directions:</h1><h2 id="direction-title"></h2></div>
+                <div class="directions-text">
+                    <div  class="first-direction direction"><span><i class="fa-solid fa-person-walking" ></span></i><p id="direction-0"></p></div>
+                    <div  class="second-direction direction"><span><i class="fa-solid fa-bicycle"></i></span><p id="direction-1"></p></div>
+                    <div  class="third-direction direction"><span><i class="fa-solid fa-person-walking" ></span></i><p id="direction-2"></p></div>
+                </div>
+            </div>
+            <h1>Previous Routes:</h1>
+            <div class="routes" id="routes">
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/nav.css') }}">

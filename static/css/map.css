@@ -1,0 +1,284 @@
+/*
+MAP CSS FILE
+
+This file contains css for elements that are visible on the map. This includes, in order: 
+(i) Map Container and General Styles
+(ii) "Glyph Selector" (All, Mech, Elec, Park)
+(iii) Search Button
+*/
+
+/*
+**********************************************************
+Map Container and General Styles
+**********************************************************
+*/
+.main-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.map-container{
+    width: 100%;
+    height: 100%;
+}
+
+.map-buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0rem;
+    top: 2rem;
+    z-index: 10;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+.info-window{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rm;
+    height: auto;
+}
+
+div.gm-style-iw {
+    max-height:50px;
+    overflow:scroll;
+}
+
+
+
+
+.sb-button-container{
+    height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+    align-items: center;
+}
+
+.sb-button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    height: 1.25rem;
+    font-size: 0.85rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--dark-navy);
+    color: white;
+}
+
+.sb-button-underline{
+    width: 80%;
+    border-bottom: 2px solid var(--dark-navy);
+}
+
+
+
+/*
+**********************************************************
+Glyph Selector
+**********************************************************
+*/
+
+.glyph-toggle{
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    background-color: transparent;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+
+.glyph-button{
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+}
+
+.glyph-button-contents{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.glyph-button-contents:hover{
+    color: var(--light-blue);
+}
+
+.glyph-button-contents h4{
+    margin-bottom: 20px;
+}
+
+
+
+.glyph-toggle-container{
+    display: flex;
+    gap: 0;
+    background-color: var(--dark-navy);
+    width: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*
+**********************************************************
+Search Button
+**********************************************************
+*/
+
+.open-search{
+    position: absolute;
+    float: left;
+    bottom: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    z-index: 10;
+    width: 5rem;
+}
+
+.open-search-button{
+    height: 2.5rem;
+    width: 100%;
+}
+
+
+.open-search-button i{
+    font-size: 1.25rem;
+    color: white;
+}
+
+.suggestion-element{
+    padding-top: 0.25rem;
+    padding-bottom: 0.25;
+    color: var(--dark-navy);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.suggestion-element:hover{
+    background-color: var(--light-grey);
+}
+.suggestion-element h1 {
+    color: var(--dark-navy);
+}
+
+.suggestion-bikes h1 {
+    color: var(--dark-navy);
+}
+
+.suggestion-bikes{
+    display: flex;
+    gap: 0.25rem;
+    color: var(--dark-navy);
+    align-items: center;
+}
+
+
+.route-element{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.route-element-walk{
+    display: flex;
+    gap: 0.125rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.route-element-walk i{
+    font-size: 0.8rem;
+}
+
+
+.route-element-walk h4{
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.route-element-bike{
+    display: flex;
+    gap: 0.125rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.route-element-bike i{
+    font-size: 0.8rem;
+}
+
+.route-element-bike h4{
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+
+.station-search {
+    position: absolute;
+    right: 10px;
+    margin: 10px;
+    background-color: transparent;
+    z-index: 10;
+    width: 15rem;
+}
+
+.station-search-container{
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.75rem;
+    background-color: var(--dark-navy);
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.station-search-container i{
+    color: white;
+    font-size: 0.75rem;
+}
+
+.station-search-container input{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    user-select: none;
+}
+
+.station-search-container input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+

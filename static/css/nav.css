@@ -1,0 +1,251 @@
+/*
+NAV CSS FILE
+
+This file contains css for elements in the nav.html page. CSS declarations flow from top to bottom (i.e. as we move down the .html, we move down the .css).
+This css file is split up into 3 sections: 
+(i) Station Info && Charts
+(ii) Station Search
+(iii) Directions Text
+*/
+
+/*
+**********************************************************
+Station Info && Charts
+**********************************************************
+*/
+.nav-container{
+    width: 0px;
+    visibility: hidden;
+    opacity: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    transition: width 0.5s ease;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.nav-title{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.icon-container{
+    display: flex;
+    align-items: top;
+    gap: 0.25rem;
+}
+
+.icon-text{
+    font-size: 1.25rem;
+}
+
+.icon{
+    color: var(--dark-navy);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    height: 2.5rem;
+    text-align: center;
+}
+
+.icon-fa{
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.bike-info{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.display-statistics-bikes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.chart-toggle{
+    width: 100%;
+    display: flex;
+    gap:10px;
+    float: right;
+}
+
+
+.bike-chart{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bike-chart{
+    display: block;
+}
+
+.park-chart{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#park-chart{
+    display: block;
+}
+
+.return{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+/*
+**********************************************************
+Station Search
+**********************************************************
+*/
+.directions-container{
+    display: none;
+}
+
+.search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-inputs{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.route-search{
+    width: 15rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: solid var(--dark-navy) 0.5px;
+    border-radius: 5px;
+    justify-content: left;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+}
+
+.search{
+    padding-top: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    gap: 0.3rem;
+}
+
+.route-input{
+    border: none;
+    color: var(--dark-navy);
+    width: 10rem;
+    background-color: transparent;
+}
+
+.route-input:focus{
+    outline:none;
+    box-shadow: none;
+}
+
+.route-icon{
+    border: none;
+}
+
+
+.search-button-container{
+    position: relative;
+    width: 100%;
+}
+
+.search-button{
+    margin-top: 1rem;
+    position: absolute;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    right: 0;
+}
+
+/*
+**********************************************************
+Directions Text
+**********************************************************
+*/
+
+.direction{
+    display: flex;
+    align-items: center;
+}
+
+.directions-text-container{
+    display: none;
+    flex-direction: column;
+}
+
+.directions-text-button{
+    width: 8rem;
+    background-color: var(--dark-navy);
+    padding: 0.25rem;
+}
+
+.directions-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.direction span{
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.direction p{
+    font-size: 0.8rem;
+} 
+
+.route-button{
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.route-button:hover{
+    background-color: var(--light-grey);
+}
