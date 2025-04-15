@@ -126,8 +126,11 @@ function setMarker(loc, marker, colour){
 
 async function markerToStn(marker, start){
     const pos = marker["position"];
-    const lat = pos["zC"];
-    const long = pos["AC"];
+    console.log("position: ", pos);
+    console.log("Latitude: ", pos["BC"]);
+    console.log("Longitude: ", pos["AC"]);
+    const long = pos["BC"];
+    const lat = pos["AC"];
     const addr = await getStreetName(lat, long);
     const obj = {"address": addr, "latitude": lat, "longitude": long}
     if (start){
@@ -144,7 +147,9 @@ function getStreetName(lat, lng) {
 
         geocoder.geocode({ location: latlng }, (results, status) => {
             if (status === "OK" && results[0]) {
+                console.log("Working");
                 let streetName = "";
+                console.log(results);
                 results[0].address_components.forEach(component => {
                     if (component.types.includes("route")) {
                         streetName = component.long_name;
