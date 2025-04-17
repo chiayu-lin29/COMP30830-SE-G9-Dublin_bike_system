@@ -31,3 +31,11 @@ def get_features():
         pressure.append(main["pressure"])
     return [times, is_weekday, hour, temperature, humidity, pressure]
     
+def clean_datapoint(weather):
+    day = weather["time"].strftime('%A')
+    time = weather["time"].strftime('%A %H:%M')
+    hour = weather["time"].strftime('%H')
+    is_weekday = 1
+    if day == "Saturday" or day == "Sunday":
+        is_weekday = (0)
+    return [time, is_weekday, hour, weather["temperature"], weather["humidity"], weather["pressure"]]

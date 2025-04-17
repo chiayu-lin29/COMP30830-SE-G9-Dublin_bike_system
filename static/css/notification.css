@@ -1,0 +1,30 @@
+.notification-container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3rem;
+    margin-bottom: 10px;
+    background-color: white;
+    z-index: 10;
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s ease-out;
+    cursor: pointer;
+}
+
+.notification-container h1{
+    font-size: 1rem;
+}
+
+.notification-container i {
+    font-size: 1rem;
+}
+
+.notification-container.active{
+    transform: translateX(-50%) translateY(-3rem)
+}

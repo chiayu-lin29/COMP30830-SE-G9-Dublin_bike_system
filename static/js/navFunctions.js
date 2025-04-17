@@ -1,74 +1,167 @@
 
+
 /* 
 *********************
 Hiding and Displaying
 *********************
 */
 
+
+// function navHide() {
+//     const navElement = document.getElementById("nav-container"); 
+
+//     navElement.style.width = "0px";
+
+//     setTimeout(() => {
+//         navElement.style.opacity = "0";
+//         navElement.style.paddingLeft = "0px";
+//         navElement.style.paddingRight = "0px";
+//     }, 450);
+
+//     setTimeout(() => {
+//         navElement.style.visibility = "hidden";
+//     }, 500);
+// }
+
+// async function navDisplay() {
+//     showLoading("nav-loading");
+//     try{
+//         const navElement = document.getElementById("nav-container"); 
+
+//         navElement.style.width = "500px";
+//         navElement.style.visibility = "visible";
+//         navElement.style.opacity = "1";
+//         navElement.style.paddingLeft = "10px";
+//         navElement.style.paddingRight = "10px";
+
+//         updateTime();
+//         await plot_station_predictions(startingLoc.id)
+//     }catch (err) {
+//         console.error("Failed to load chart data:", err);
+//         alert("There was an error loading the chart.");
+//     } finally {
+//         hideLoading("nav-loading");
+//         console.log("HELLO")
+//     }
+// }
+
+
+// function showDirections(){
+//     let info = document.getElementById("info-container");
+//     let directions = document.getElementById("directions-container");
+//     searchParams["searchMode"] = true;
+
+//     info.style.display = "none";  
+//     directions.style.display = "flex";  
+// }
+
+// function hideDirections(){
+//     let info = document.getElementById("info-container");
+//     let directions = document.getElementById("directions-container");
+//     searchParams["searchSource"] = false;
+
+//     info.style.display = "flex";  
+//     directions.style.display = "none";
+//     hideDirectionsText();
+// }
+
+// function showSearch(){
+//     navDisplay();
+//     showDirections();
+// }
+
+
+// function hideDirectionsText(){
+//     const directionsText = document.getElementById("directionsText");
+//     directionsText.style.display = "none";
+// }
+
+
+// function showDirectionsText(){
+//     const directionsText = document.getElementById("directionsText");
+//     directionsText.style.display = "flex";
+// }
+
+/**
+ * Navigation and Panel Controls
+ */
 function navHide() {
     const navElement = document.getElementById("nav-container"); 
-
+  
     navElement.style.width = "0px";
-
+  
     setTimeout(() => {
-        navElement.style.opacity = "0";
-        navElement.style.paddingLeft = "0px";
-        navElement.style.paddingRight = "0px";
+      navElement.style.opacity = "0";
+      navElement.style.paddingLeft = "0px";
+      navElement.style.paddingRight = "0px";
     }, 450);
-
+  
     setTimeout(() => {
-        navElement.style.visibility = "hidden";
+      navElement.style.visibility = "hidden";
     }, 500);
-}
-
-function navDisplay() {
-    const navElement = document.getElementById("nav-container"); 
-
-    navElement.style.width = "500px";
-    navElement.style.visibility = "visible";
-    navElement.style.opacity = "1";
-    navElement.style.paddingLeft = "10px";
-    navElement.style.paddingRight = "10px";
-
-    plot_station_predictions(startingLoc.id)
-}
-
-
-function showDirections(){
+  }
+  
+  async function navDisplay() {
+    showLoading("nav-loading");
+    try {
+      const navElement = document.getElementById("nav-container"); 
+  
+      navElement.style.width = "500px";
+      navElement.style.visibility = "visible";
+      navElement.style.opacity = "1";
+      navElement.style.paddingLeft = "10px";
+      navElement.style.paddingRight = "10px";
+  
+      updateTime();
+      if (AppState.startingLoc && AppState.startingLoc.id) {
+        await plot_station_predictions(AppState.startingLoc.id);
+      }
+    } catch (err) {
+      console.error("Failed to load chart data:", err);
+      alert("There was an error loading the chart.");
+    } finally {
+      hideLoading("nav-loading");
+    }
+  }
+  
+  function showDirections() {
     let info = document.getElementById("info-container");
     let directions = document.getElementById("directions-container");
-    searchParams["searchMode"] = true;
-
+    AppState.searchParams.searchMode = true;
+  
     info.style.display = "none";  
     directions.style.display = "flex";  
-}
-
-function hideDirections(){
+  }
+  
+  function hideDirections() {
     let info = document.getElementById("info-container");
     let directions = document.getElementById("directions-container");
-    searchParams["searchSource"] = false;
-
+    AppState.searchParams.searchSource = false;
+  
     info.style.display = "flex";  
     directions.style.display = "none";
     hideDirectionsText();
-}
-
-function showSearch(){
+  }
+  
+  function showSearch() {
     navDisplay();
     showDirections();
-}
-
-
-function hideDirectionsText(){
+  }
+  
+  function hideDirectionsText() {
     const directionsText = document.getElementById("directionsText");
     directionsText.style.display = "none";
-}
-
-
-function showDirectionsText(){
+  }
+  
+  function showDirectionsText() {
     const directionsText = document.getElementById("directionsText");
     directionsText.style.display = "flex";
-}
+  }
+  
+  function closeDirections() {
+    hideDirectionsText();
+    removeRoute();
+  }
 
 
 /*
@@ -77,93 +170,280 @@ Setting States and Data
 ***********************
 */
 
+// function setStart() {
+//     const input = document.getElementById("route-input");
+//     if (input && startingLoc && startingLoc.address) {
+//         input.value = startingLoc.address;
+//     }
+// }
+
+// function setDest() {
+//     const input = document.getElementById("route-input-dest");
+//     if (input && destinationLoc && destinationLoc.address) {
+//         input.value = destinationLoc.address;
+//     } else {
+//         console.warn("No destination selected yet.");
+//     }
+// }
+
+// function clickSourceInput(){
+//     searchParams["searchMode"] = true;
+//     searchParams["searchSource"] = true;
+//     startInputNotification();
+// }
+
+// function clickDestInput(){
+//     searchParams["searchMode"] = true;
+//     searchParams["searchSource"] = false;
+//     destInputNotification();
+// }
+
+// function closeDirections(){
+//     hideDirectionsText();
+//     removeRoute();
+// }
+
+/**
+ * Search and Selection Functions
+ */
 function setStart() {
     const input = document.getElementById("route-input");
-    if (input && startingLoc && startingLoc.address) {
-        input.value = startingLoc.address;
+    if (input && AppState.startingLoc && AppState.startingLoc.address) {
+      input.value = AppState.startingLoc.address;
     }
-}
-
-function setDest() {
+  }
+  
+  function setDest() {
     const input = document.getElementById("route-input-dest");
-    if (input && destinationLoc && destinationLoc.address) {
-        input.value = destinationLoc.address;
+    if (input && AppState.destinationLoc && AppState.destinationLoc.address) {
+      input.value = AppState.destinationLoc.address;
     } else {
-        console.warn("No destination selected yet.");
+      console.warn("No destination selected yet.");
     }
-}
+  }
+  
+  function clickSourceInput() {
+    AppState.searchParams.searchMode = true;
+    AppState.searchParams.searchSource = true;
+    startInputNotification();
+  }
+  
+  function clickDestInput() {
+    AppState.searchParams.searchMode = true;
+    AppState.searchParams.searchSource = false;
+    destInputNotification();
+  }
 
-function clickSourceInput(){
-    searchParams["searchMode"] = true;
-    searchParams["searchSource"] = true;
-}
 
-function clickDestInput(){
-    searchParams["searchMode"] = true;
-    searchParams["searchSource"] = false;
-}
+  function openNavWithStation(station) {
+    if (AppState.selectingDestination) {
+      AppState.destinationLoc = station;
+      setDest();
+      AppState.selectingDestination = false;
+    } else {
+      AppState.startingLoc = station;
+      setStart();
+      updateNavbar(
+        station.number,
+        station.address,
+        station.mechBikes || 0,
+        station.elecBikes || 0,
+        station.capacity || "N/A"
+      );
+      navDisplay();
+    }
+  }
 
 
-function plot_station_predictions(station_id){
-    fetch(`/bike_predict?station_id=${station_id}`)
-    .then(response => response.json())
-    .then(data => {
-        const times = data.times;
-        const capacity = startingLoc.capacity
-        let predictions = data.predictions;
-        predictions = predictions.map(pred => pred > capacity ? capacity : pred).map(pred => pred < 0 ? 0 : pred);
-        datasets["bikePredictions"] = predictions;
-        
-        const park = predictions.map(num => startingLoc.capacity - num);
-        datasets["parkPredictions"] = park;
-        
-        displayBikeNav();
-    })
-}
-
-function setSearchWithButton(start, dest){
-    startingLoc = start;
-    destinationLoc = dest;
+  function clickStartSuggestion(station) {
+    AppState.startingLoc = station;
+    setStart();
+    const suggestionsContainer = document.getElementById("starting-suggestions");
+    suggestionsContainer.innerHTML = '';
+  }
+  
+  function clickEndSuggestion(station) {
+    AppState.destinationLoc = station;
+    setDest();
+    const suggestionsContainer = document.getElementById("destination-suggestions");
+    suggestionsContainer.innerHTML = '';
+  }
+  
+  function clickStationSuggestion(station) {
+    openNavWithStation(station);
+    const suggestionsContainer = document.getElementById("station-suggestions");
+    const searchInput = document.getElementById("station-input");
+    suggestionsContainer.innerHTML = '';
+    searchInput.value = '';
+  }
+  
+  function setSearchWithButton(start, dest) {
+    AppState.startingLoc = start;
+    AppState.destinationLoc = dest;
     setStart();
     setDest();
-}
+  }
 
-function updateNavbar(number, name, mechanical_bikes, electrical_bikes, stands){
+  function updateNavbar(number, name, mechanical_bikes, electrical_bikes, stands) {
     navDisplay();
     const navbarName = document.getElementById("station-address");
     const navbarNum = document.getElementById("station-number");
     const numMechBikes = document.getElementById("mechanicalBikes");
     const numElecBikes = document.getElementById("electricalBikes");
     const numParking = document.getElementById("stands");
+  
+    if (navbarName) {
+      navbarName.innerHTML = `${name || "Unknown"}`;
+    }
+    if (navbarNum) {
+      navbarNum.innerHTML = `${number || "N/A"}`;
+    }
+    if (numMechBikes) {
+      numMechBikes.innerHTML = `${mechanical_bikes || 0}`;
+    }
+    if (numElecBikes) {
+      numElecBikes.innerHTML = `${electrical_bikes || 0}`;
+    }
+    if (numParking) {
+      numParking.innerHTML = `${stands || 0}`;
+    }
+  }
 
-    if (navbarName){
-    navbarName.innerHTML = `${name || "Unknown"}`;
-    }
-    if (navbarNum){
-        navbarNum.innerHTML = `${number || "N/A"}`;
-    }
-    if (numMechBikes){
-        numMechBikes.innerHTML = `${mechanical_bikes || 0}`;
-    }
-    if (numElecBikes){
-        numElecBikes.innerHTML = `${electrical_bikes || 0}`;
-    }
-    if (numParking){
-        numParking.innerHTML = `${stands || 0}`;
-    }
-}
+  
 
 
-function displayWeatherNav(){
+
+// async function plot_station_predictions(station_id) {
+//     try {
+//       const response = await fetch(`/bike_predict?station_id=${station_id}`);
+//       const data = await response.json();
+  
+//       const times = data.times;
+//       const capacity = startingLoc.capacity;
+//       let predictions = data.predictions;
+  
+//       predictions = predictions.map(pred => Math.min(capacity, Math.max(0, pred)));
+//       datasets["bikePredictions"] = predictions;
+  
+//       const park = predictions.map(num => capacity - num);
+//       datasets["parkPredictions"] = park;
+  
+//       displayBikeNav(); // this can still be sync
+//     } catch (err) {
+//       console.error("Failed to load chart data:", err);
+//       alert("There was an error loading the chart.");
+//     }
+//   }
+
+// async function predict_bike_at_time(station_id){
+//     try{
+//         const response = await  fetch(`/closest_time_pred?station_id=${station_id}&selected_time=${selectedTime}`);
+//         const data = await response.json();
+//         const prediction = data.predictions;
+//         const predictionText = document.getElementById("prediction-time");
+//         const newTime = formatTime(selectedTime);
+//         predictionText.innerText = `The number of bikes at station at ${newTime} is ${prediction}`;
+//     } catch(err){
+//         console.error("Error calculating predictions: ", err);
+//         alert("There was an error finding bike predictions at given time")
+//     }
+// }
+
+/**
+ * Data Visualization Functions
+ */
+async function plot_station_predictions(station_id) {
+    try {
+      const response = await fetch(`/bike_predict?station_id=${station_id}`);
+      const data = await response.json();
+  
+      const times = data.times;
+      const capacity = AppState.startingLoc.capacity;
+      let predictions = data.predictions;
+  
+      predictions = predictions.map(pred => Math.min(capacity, Math.max(0, pred)));
+      AppState.datasets.bikePredictions = predictions;
+  
+      const park = predictions.map(num => capacity - num);
+      AppState.datasets.parkPredictions = park;
+  
+      displayBikeNav(); // Update charts
+    } catch (err) {
+      console.error("Failed to load chart data:", err);
+      alert("There was an error loading the chart.");
+    }
+  }
+  
+  async function predict_bike_at_time(station_id) {
+    try {
+      const response = await fetch(`/closest_time_pred?station_id=${station_id}&selected_time=${AppState.selectedTime}`);
+      const data = await response.json();
+      const prediction = data.predictions;
+      const predictionText = document.getElementById("prediction-time");
+      const newTime = formatTime(AppState.selectedTime);
+      predictionText.innerText = `The number of bikes at station at ${newTime} is ${prediction}`;
+    } catch(err) {
+      console.error("Error calculating predictions: ", err);
+      alert("There was an error finding bike predictions at given time");
+    }
+  }
+  
+  function displayWeatherNav() {
     chartDoubleLine('bike-chart', 'temperatures', 'feelsLike', 'Temperature °C', 'Feels Like °C', 'Temperature °C');
     chartSingleLine('park-chart', 'windSpeeds', 'WindSpeed m/s');
-}
-
-function displayBikeNav(){
+  }
+  
+  function displayBikeNav() {
     chartBar("bike-chart", "bikePredictions", "Predicted Bikes");
     chartBar("park-chart", "parkPredictions", "Predicted Parking");
-}
+  }
 
+
+// function setSearchWithButton(start, dest){
+//     startingLoc = start;
+//     destinationLoc = dest;
+//     setStart();
+//     setDest();
+// }
+
+// function updateNavbar(number, name, mechanical_bikes, electrical_bikes, stands){
+//     navDisplay();
+//     const navbarName = document.getElementById("station-address");
+//     const navbarNum = document.getElementById("station-number");
+//     const numMechBikes = document.getElementById("mechanicalBikes");
+//     const numElecBikes = document.getElementById("electricalBikes");
+//     const numParking = document.getElementById("stands");
+
+//     if (navbarName){
+//     navbarName.innerHTML = `${name || "Unknown"}`;
+//     }
+//     if (navbarNum){
+//         navbarNum.innerHTML = `${number || "N/A"}`;
+//     }
+//     if (numMechBikes){
+//         numMechBikes.innerHTML = `${mechanical_bikes || 0}`;
+//     }
+//     if (numElecBikes){
+//         numElecBikes.innerHTML = `${electrical_bikes || 0}`;
+//     }
+//     if (numParking){
+//         numParking.innerHTML = `${stands || 0}`;
+//     }
+// }
+
+
+// function displayWeatherNav(){
+//     chartDoubleLine('bike-chart', 'temperatures', 'feelsLike', 'Temperature °C', 'Feels Like °C', 'Temperature °C');
+//     chartSingleLine('park-chart', 'windSpeeds', 'WindSpeed m/s');
+// }
+
+// function displayBikeNav(){
+//     chartBar("bike-chart", "bikePredictions", "Predicted Bikes");
+//     chartBar("park-chart", "parkPredictions", "Predicted Parking");
+// }
+
+
+ 
 
 /*
 *********
@@ -171,65 +451,121 @@ Rendering
 *********
 */
 
+// function renderRoutes() {
+//     const routeContainer = document.getElementById("routes");
+//     routeContainer.innerHTML = "";
+//     console.log("Routes", routes);
+
+//     if (routes) {
+//         routes.forEach(route => {
+//             const routeButton = document.createElement("button");
+//             routeButton.classList.add("route-button");
+//             routeButton.onclick = () => setSearchWithButton(route.start, route.destination);
+//             const routeElement = document.createElement("div");
+//             routeElement.classList.add("route-element");  // Fixed here
+
+//             const path = document.createElement("h2");
+//             path.textContent = `${route.start.address} - ${route.destination.address}`;
+//             routeElement.appendChild(path);
+
+//             // Create the div for first
+//             const firstElement = document.createElement("div");
+//             firstElement.classList.add("route-element-walk");  // Fixed here
+//             const firstElementText = document.createElement("h4");
+//             firstElementText.textContent = route.first;
+//             const firstIcon = document.createElement("i");
+//             firstIcon.classList.add("fas", "fa-walking");
+//             firstElement.appendChild(firstIcon);
+//             firstElement.appendChild(firstElementText);
+//             routeElement.appendChild(firstElement);
+
+//             // Create the div for second
+//             const secondElement = document.createElement("div");
+//             secondElement.classList.add("route-element-bike");  // Fixed here
+//             const secondElementText = document.createElement("h4");
+//             secondElementText.textContent = route.second;
+//             const secondIcon = document.createElement("i");
+//             secondIcon.classList.add("fa-solid", "fa-person-biking");
+//             secondElement.appendChild(secondIcon);
+//             secondElement.appendChild(secondElementText);
+//             routeElement.appendChild(secondElement);
+
+//             // Create the div for third
+//             const thirdElement = document.createElement("div");
+//             thirdElement.classList.add("route-element-walk");  // Fixed here
+//             const thirdElementText = document.createElement("h4");
+//             thirdElementText.textContent = route.third;
+//             const thirdIcon = document.createElement("i");
+//             thirdIcon.classList.add("fas", "fa-walking");
+//             thirdElement.appendChild(thirdIcon);
+//             thirdElement.appendChild(thirdElementText);
+//             routeElement.appendChild(thirdElement);
+//             routeButton.appendChild(routeElement);
+
+//             // Append the final route element to the container
+//             routeContainer.appendChild(routeButton);
+//         });
+        
+        
+//     }
+// }
+
+
+
+
 function renderRoutes() {
     const routeContainer = document.getElementById("routes");
     routeContainer.innerHTML = "";
-    console.log("Routes", routes);
-
-    if (routes) {
-        routes.forEach(route => {
-            const routeButton = document.createElement("button");
-            routeButton.classList.add("route-button");
-            routeButton.onclick = () => setSearchWithButton(route.start, route.destination);
-            const routeElement = document.createElement("div");
-            routeElement.classList.add("route-element");  // Fixed here
-
-            const path = document.createElement("h2");
-            path.textContent = `${route.start.address} - ${route.destination.address}`;
-            routeElement.appendChild(path);
-
-            // Create the div for first
-            const firstElement = document.createElement("div");
-            firstElement.classList.add("route-element-walk");  // Fixed here
-            const firstElementText = document.createElement("h4");
-            firstElementText.textContent = route.first;
-            const firstIcon = document.createElement("i");
-            firstIcon.classList.add("fas", "fa-walking");
-            firstElement.appendChild(firstIcon);
-            firstElement.appendChild(firstElementText);
-            routeElement.appendChild(firstElement);
-
-            // Create the div for second
-            const secondElement = document.createElement("div");
-            secondElement.classList.add("route-element-bike");  // Fixed here
-            const secondElementText = document.createElement("h4");
-            secondElementText.textContent = route.second;
-            const secondIcon = document.createElement("i");
-            secondIcon.classList.add("fa-solid", "fa-person-biking");
-            secondElement.appendChild(secondIcon);
-            secondElement.appendChild(secondElementText);
-            routeElement.appendChild(secondElement);
-
-            // Create the div for third
-            const thirdElement = document.createElement("div");
-            thirdElement.classList.add("route-element-walk");  // Fixed here
-            const thirdElementText = document.createElement("h4");
-            thirdElementText.textContent = route.third;
-            const thirdIcon = document.createElement("i");
-            thirdIcon.classList.add("fas", "fa-walking");
-            thirdElement.appendChild(thirdIcon);
-            thirdElement.appendChild(thirdElementText);
-            routeElement.appendChild(thirdElement);
-            routeButton.appendChild(routeElement);
-
-            // Append the final route element to the container
-            routeContainer.appendChild(routeButton);
-        });
+  
+    if (AppState.routes && AppState.routes.length) {
+      AppState.routes.forEach(route => {
+        const routeButton = document.createElement("button");
+        routeButton.classList.add("route-button");
+        routeButton.onclick = () => setSearchWithButton(route.start, route.destination);
         
+        const routeElement = document.createElement("div");
+        routeElement.classList.add("route-element");
+  
+        // Create route title
+        const path = document.createElement("h2");
+        path.textContent = `${route.start.address} - ${route.destination.address}`;
+        routeElement.appendChild(path);
+  
+        // First walking segment
+        const firstElement = createRouteSegment(route.first, "fa-walking", "route-element-walk");
+        routeElement.appendChild(firstElement);
+  
+        // Cycling segment
+        const secondElement = createRouteSegment(route.second, "fa-person-biking", "route-element-bike");
+        routeElement.appendChild(secondElement);
+  
+        // Second walking segment
+        const thirdElement = createRouteSegment(route.third, "fa-walking", "route-element-walk");
+        routeElement.appendChild(thirdElement);
         
+        routeButton.appendChild(routeElement);
+        routeContainer.appendChild(routeButton);
+      });
     }
-}
-
-
-
-
+  }
+  
+  function createRouteSegment(distance, iconClass, className) {
+    const element = document.createElement("div");
+    element.classList.add(className);
+    
+    const elementText = document.createElement("h4");
+    elementText.textContent = distance;
+    
+    const icon = document.createElement("i");
+    if (iconClass === "fa-person-biking") {
+      icon.classList.add("fa-solid", iconClass);
+    } else {
+      icon.classList.add("fas", iconClass);
+    }
+    
+    element.appendChild(icon);
+    element.appendChild(elementText);
+    
+    return element;
+  }
+  

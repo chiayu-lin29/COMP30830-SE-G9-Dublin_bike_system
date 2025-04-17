@@ -3,7 +3,7 @@ let currWeather;
 let chartDisplay = false;
 let datasets = {"times": null, "temperatures": null, "feelsLike": null, "clouds": null, "windSpeeds": null, "bikePredictions": null, "parkPredictions": null};
 
-displayCurrWeather();
+// displayCurrWeather();
 
 
 async function getCurrWeather(){
@@ -35,8 +35,8 @@ async function getWeather(){
     weatherData.forEach(entry => {
         const rawDate = new Date(entry[1])
         times.push(rawDate.toLocaleString('en-US', options));  // Time
-        temperatures.push(Math.round(entry[2] - 273.15)); // Temperature (Test)
-        feelsLike.push(Math.round(entry[3] - 274.15));   // Feels Like (Test)
+        temperatures.push(entry[2]); // Temperature
+        feelsLike.push(entry[3]);   // Feels Like
         clouds.push(entry[5]);      // Cloud Description
         windSpeeds.push(entry[6]);  // Wind Speed
     });
@@ -66,6 +66,7 @@ function closeChart(){
 
 async function openChart(){
     if (!chartDisplay){
+        showLoading("weather-loading");
         const chart = document.getElementById("weather-chart-container");
         chart.style.display = 'flex';
         chartDisplay = true;
@@ -73,6 +74,7 @@ async function openChart(){
         await getWeather()
         await updateHeader();
         chartDoubleLine('weather-chart', 'temperatures', 'feelsLike', 'Temperature °C', 'Feels Like °C', 'Temperature °C');
+        hideLoading("weather-loading");
     }
     
 }
@@ -102,7 +104,7 @@ async function displayCurrWeather() {
         var weatherIcon = document.createElement("i");
 
         // Assign weather text (e.g., temperature) to weatherText element
-        weatherText.innerText = `${Math.round(currWeather.temperature - 273.15)}°C`; // Assuming temperature is in Celsius
+        weatherText.innerText = `${currWeather.temperature}°C`; // Assuming temperature is in Celsius
 
 
         weatherIcon.className = getWeatherIcon();
@@ -131,13 +133,14 @@ async function updateHeader(){
     const metric3 = document.getElementById("weather-metric-3");
     const icon = document.getElementById("weather-header-summary-icon");
 
-    headerTemp.innerText = Math.round(currWeather.temperature - 273.15);
+    headerTemp.innerText = currWeather.temperature;
 
     const weatherTime = new Date(currWeather.time);
     const hours = String(weatherTime.getHours()).padStart(2, '0');
     const minutes = String(weatherTime.getMinutes()).padStart(2, '0');
     headerTime.innerText = `${hours}:${minutes}, ${currWeather.weatherDesc}`;
-    metric1.innerText = `Feels Like: ${Math.round(currWeather.feelsLike - 273.15)}°C`;
+
+    metric1.innerText = `Feels Like: ${currWeather.feelsLike}°C`;
     metric2.innerText = `Cloud Coverage: ${currWeather.clouds}%`;
     metric3.innerText = `windSpeed: ${currWeather.windSpeed}m/s`;
 

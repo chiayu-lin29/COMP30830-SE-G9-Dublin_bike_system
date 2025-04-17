@@ -6,11 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/map.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/spinner.css')}}">
     <script src="https://kit.fontawesome.com/6ab48ccb21.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="main-container">
+        <div id="app-loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
         {% include 'nav.html' %}
         
         <div class="map-container" style="position: relative;">
@@ -62,6 +67,8 @@
                 <button onclick="showSearch()" class="open-search-button button button-md"><i class="fa-solid fa-diamond-turn-right"></i></button>
             </div>
             <div class="" id="map" style="height: 100%; width: 100%; z-index: 5;"></div>
+            
+            {% include 'notification.html' %}
         </div>
     </div>
 
@@ -69,12 +76,15 @@
   <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuARHzyEePZlZtcn0oF2AgAHorlScQuok&loading=async&callback=initMap&libraries=marker">
 </script>
+<script src="{{ url_for('static', filename='js/spinner.js') }}"></script>
 
     <script src="{{ url_for('static', filename='js/mapFunctions.js') }}"></script>
     <script src="{{ url_for('static', filename='js/map.js') }}"></script>
     <script src="{{ url_for('static', filename='js/navFunctions.js') }}"></script>
     <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
-   
+    <script src="{{ url_for('static', filename='js/notification.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/time.js') }}"></script>
+    
 </body>
 </html>

@@ -1,16 +1,11 @@
-let weatherChart;
-let parkChart;
-let bikesChart;
-let charts = {"weather-chart": weatherChart, "bike-chart": bikesChart, "park-chart": parkChart};
-
 function chartSingleLine(chartId, data, label){
     const ctx = document.getElementById(chartId).getContext('2d');
-    const oldChart = charts[chartId];
+    const oldChart = AppState.charts[chartId];
 
     if (oldChart){
         oldChart.destroy();
     }
-    charts[chartId] = new Chart(ctx, {
+    AppState.charts[chartId] = new Chart(ctx, {
         type: 'line',  
         data: {
             labels: datasets["times"],  
@@ -44,12 +39,12 @@ function chartSingleLine(chartId, data, label){
 
 function chartDoubleLine(chartId, data1, data2, label1, label2, yaxis){
     const ctx = document.getElementById(chartId).getContext('2d');
-    const oldChart = charts[chartId];
+    const oldChart = AppState.charts[chartId];
 
     if (oldChart){
         oldChart.destroy();
     }
-    charts[chartId] = new Chart(ctx, {
+    AppState.charts[chartId] = new Chart(ctx, {
         type: 'line',  
         data: {
             labels: datasets["times"],  
@@ -91,18 +86,18 @@ function chartDoubleLine(chartId, data1, data2, label1, label2, yaxis){
 
 function chartBar(chartId, data, label){
     const ctx = document.getElementById(chartId).getContext('2d');
-    const oldChart = charts[chartId];
+    const oldChart = AppState.charts[chartId];
 
     if (oldChart){
         oldChart.destroy();
     }
-    charts[chartId] = new Chart(ctx, {
+    AppState.charts[chartId] = new Chart(ctx, {
         type: 'bar',  
         data: {
             labels: datasets["times"],
             datasets: [{
                 label: label,
-                data: datasets[data],
+                data: AppState.datasets[data],
                 backgroundColor: '#001f3d',  
                 borderColor: '#001f3d', 
                 borderWidth: 2,

@@ -1,5 +1,9 @@
 
 <nav class="nav-container" id="nav-container">
+    <div id="nav-loading" class="loading">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
     <div class="close">
         <button onclick="navHide()" class="button button-sm close-nav"><i class="fa-solid fa-xmark"></i></button>
     </div>
@@ -58,19 +62,25 @@
                 </label>
             </div>
 
+            <div class="dropdown">
+                <button id="select-time" class="dropbtn button-sm" onclick="showTime()"></button>
+                <div class="dropdown-content" id="timeDropdown"></div>
+            </div>
+
             <div class="search-button-container">
                 <button class="button button-sm search-button" onclick="stationToStation()">Search</button>
             </div>
-
-            <div style="margin-top: 3rem;" class="divider"></div>
+            <div class="dividerHz"></div>
             <div id="directionsText" class="directions-text-container">
-                <button class="directions-text-button button button-sm" onclick="hideDirectionsText()">Close Directions</button>
-                <div style="display: flex; gap: 0.25rem; align-items: center;"><h1>Directions:</h1><h2 id="direction-title"></h2></div>
+                <button class="directions-text-button button button-sm" onclick="closeDirections()">Close Directions</button>
+                <div style="display: flex; gap: 0.25rem; align-items: baseline; justify-content: start;"><h1>Directions:</h1><h2 id="direction-title"></h2></div>
+                <h1 style="font-size: 1rem; text-align: center;" id="prediction-time"></h1>
                 <div class="directions-text">
                     <div  class="first-direction direction"><span><i class="fa-solid fa-person-walking" ></span></i><p id="direction-0"></p></div>
                     <div  class="second-direction direction"><span><i class="fa-solid fa-bicycle"></i></span><p id="direction-1"></p></div>
                     <div  class="third-direction direction"><span><i class="fa-solid fa-person-walking" ></span></i><p id="direction-2"></p></div>
                 </div>
+                <div class="dividerHz"></div>
             </div>
             <h1>Previous Routes:</h1>
             <div class="routes" id="routes">
