@@ -52,7 +52,7 @@ function getWeatherIcon(){
         case "Clouds":
                 return "fa-solid fa-cloud"; 
             default:
-                return "fa-solid fa-circle"; 
+                return "fa-solid fa-wind"; 
     }
 }
 
