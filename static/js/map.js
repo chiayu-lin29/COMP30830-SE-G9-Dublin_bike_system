@@ -432,6 +432,7 @@ function setMarker(loc, marker, colour) {
  */
 async function markerToStn(marker, isStart) {
     const pos = marker.position;
+    console.log(pos);
     const lng = pos.BC;
     const lat = pos.AC;
     const addr = await getStreetName(lat, lng);
