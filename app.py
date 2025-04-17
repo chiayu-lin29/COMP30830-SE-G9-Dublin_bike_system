@@ -116,6 +116,33 @@ def search_suggestions():
         return jsonify({"stations":res})
     return jsonify({'suggestions': []})
 
+
+@app.route('/closest_time_pred', methods=['Get'])
+def closest_time_pred():
+    station_id = request.args.get("station_id")
+    selected_time = request.args.get("selected_time")
+
+    conn, cursor = get_db_connection()
+    query = """
+    SELECT * FROM weather
+    ORDER BY ABS(TIMESTAMPDIFF(SECOND, time, %s))
+    LIMIT 1;
+    """
+
+    cursor.execute(query, (selected_time,))
+    res = cursor.fetchone()
+
+    columns = [desc[0] for desc in cursor.description]  # Get column names
+    weather_data = dict(zip(columns, res))
+
+    cursor.close()
+    conn.close()
+
+    
+    time, prediction = predict_one(station_id, weather_data)
+    return jsonify({'times': time, 'predictions': prediction})
+
+
 @app.route('/bike_predict', methods=['GET'])
 def bike_predict():
     station_id = request.args.get("station_id")
