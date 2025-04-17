@@ -5,15 +5,19 @@
 - Huggard, John
 - Kavanagh, Ellie
 
-## Features (add display..)
+## Features
 
-- Interactive Google Map displaying bike stations
+- Interactive Google Map displaying bike stations (All/Mech/Elec/Park)
 
 - Real-time weather widget via OpenWeather API
 
 - Search and directions between bike stations
 
-- Bike and parking spot predictions (15-min interval)
+- Route Planning by custom drop off the place on google map
+
+- Suggestion route and show previous searching route
+
+- Bike and parking spot predictions
 
 - Historical and forecast weather database
 
@@ -25,16 +29,12 @@
 COMP30830-SE-G9-Dublin_bike_system/
 ├── app.py                 # Main Flask app
 ├── requirements.txt       # Python dependencies
-├── .env                  # Environment variables (MySQL credentials)
 ├── README.md
 │
-├── backend/              
+├── backend/
 │   └── db/              # Database interaction scripts
-│       ├── SQLpw.py          # DB credentials (URI, USER, etc.)
-│       ├── dbinfo.py         # API base path config
-│       ├── db_connection.py  # DB connection helper
-│       ├── *.py              # Table creation and CSV loaders
-│       └── weather.csv       
+│       └── db_connection.py  # DB connection helper
+│
 ├── data/                 # SQL dump files
 │   └── DumpWeatherData/weather/
 │       ├── *.sql
