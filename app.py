@@ -57,7 +57,8 @@
 from flask import Flask, render_template, jsonify, request
 import mysql.connector
 from db.db_connection import get_db_connection
-from ML.model_predict import bikes_predict
+from ML.model_predict import bikes_predict, predict_one
+from datetime import datetime
 app = Flask(__name__)
 
 @app.route('/')
