@@ -190,6 +190,7 @@ COMP30830-SE-G9-Dublin_bike_system/
 │       ├── map.html
 │       ├── nav.html
 │       └── weather.html
+│       └── notification.html
 │
 ├── ML/                   # Machine learning logic
 │   ├── model_predict.py     # Predict function using .pkl
