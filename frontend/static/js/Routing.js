@@ -1,4 +1,3 @@
-
 /**
  * Route Planning Functions
  */
@@ -176,33 +175,59 @@ function routeDistanceText(distances) {
   }
 
 
-/**
- * Utility Functions
- */
-function haversineDistance(lat1, lon1, lat2, lon2) {
-    const R = 6371; // Radius of the Earth in km
-    const dLat = (lat2 - lat1) * (Math.PI / 180);
-    const dLon = (lon2 - lon1) * (Math.PI / 180);
+function renderRoutes() {
+    const routeContainer = document.getElementById("routes");
+    routeContainer.innerHTML = "";
   
-    const a = 
-      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-      Math.cos(lat1 * (Math.PI / 180)) * Math.cos(lat2 * (Math.PI / 180)) *
-      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    if (AppState.routes && AppState.routes.length) {
+      AppState.routes.forEach(route => {
+        const routeButton = document.createElement("button");
+        routeButton.classList.add("route-button");
+        routeButton.onclick = () => setSearchWithButton(route.start, route.destination);
+        
+        const routeElement = document.createElement("div");
+        routeElement.classList.add("route-element");
   
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    return R * c; // Distance in km
-  }
+        // Create route title
+        const path = document.createElement("h2");
+        path.textContent = `${route.start.address} - ${route.destination.address}`;
+        routeElement.appendChild(path);
   
-  function findClosestStation(currentLat, currentLon) {
-    let closestStation = null;
-    let minDistance = Infinity;
-    for (let key in AppState.stationMap) {
-      const station = AppState.stationMap[key];
-      const distance = haversineDistance(currentLat, currentLon, station.latitude, station.longitude);
-      if (distance < minDistance) {
-        minDistance = distance;
-        closestStation = station;
-      }
+        // First walking segment
+        const firstElement = createRouteSegment(route.first, "fa-walking", "route-element-walk");
+        routeElement.appendChild(firstElement);
+  
+        // Cycling segment
+        const secondElement = createRouteSegment(route.second, "fa-person-biking", "route-element-bike");
+        routeElement.appendChild(secondElement);
+  
+        // Second walking segment
+        const thirdElement = createRouteSegment(route.third, "fa-walking", "route-element-walk");
+        routeElement.appendChild(thirdElement);
+        
+        routeButton.appendChild(routeElement);
+        routeContainer.appendChild(routeButton);
+      });
     }
-    return closestStation;
   }
+  
+  function createRouteSegment(distance, iconClass, className) {
+    const element = document.createElement("div");
+    element.classList.add(className);
+    
+    const elementText = document.createElement("h4");
+    elementText.textContent = distance;
+    
+    const icon = document.createElement("i");
+    if (iconClass === "fa-person-biking") {
+      icon.classList.add("fa-solid", iconClass);
+    } else {
+      icon.classList.add("fas", iconClass);
+    }
+    
+    element.appendChild(icon);
+    element.appendChild(elementText);
+    
+    return element;
+  }
+  
