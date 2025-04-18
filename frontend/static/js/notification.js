@@ -30,7 +30,7 @@ function startInputNotification(){
 
 
 function destInputNotification(){
-    notificationText.innerHTML = "Type or Click the Map to set Starting Station. Click me to Cancel!"
+    notificationText.innerHTML = "Type or Click the Map to set Destination Station. Click me to Cancel!"
     notificationIcon.className = "fa-solid fa-location-dot";
     notificationIcon.style.color = "#8B0000";
     showNotification();
