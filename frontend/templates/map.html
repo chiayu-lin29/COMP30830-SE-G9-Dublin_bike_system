@@ -73,8 +73,9 @@
     </div>
 
   <!-- Google Maps API with your API Key -->
-  <script async
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuARHzyEePZlZtcn0oF2AgAHorlScQuok&loading=async&callback=initMap&libraries=marker">
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key={{ api_key }}&loading=async&callback=initMap&libraries=marker"
+    async defer>
     </script>
     <script src="{{ url_for('static', filename='js/spinner.js') }}"></script>
     <script src="{{ url_for('static', filename='js/APP.js') }}"></script>

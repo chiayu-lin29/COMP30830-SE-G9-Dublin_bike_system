@@ -1,10 +1,11 @@
 import requests
 import json
 import datetime
+import os
 
 URI = "https://api.openweathermap.org/data/2.5/forecast"
 CITY = "Dublin"
-API = "326b81e828bf55e41949f3a0a67f7bc3"
+API = os.getenv("OPENWEATHER_API_KEY")
 
 def get_features():
     res = requests.get(URI, params={"q":CITY,"appid":API, "units": "metric"})

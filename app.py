@@ -1,15 +1,18 @@
 from flask import Flask, render_template, jsonify, request
+import os
 import mysql.connector
 from db.db_connection import get_db_connection
 from ML.model_predict import bikes_predict, predict_one
 from datetime import datetime
 app = Flask(__name__)
 
+GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
+
 @app.route('/')
 def show_map():
     stations = get_stations()
     weather = get_current_weather()
-    return render_template('map.html', stations = stations, weather=weather)
+    return render_template('map.html', stations = stations, weather=weather, api_key=GOOGLE_MAPS_API_KEY)
 
 @app.route('/weather', methods=["GET"])
 def get_weather():

@@ -134,10 +134,17 @@ pip install -r requirements.txt
 3. Set up environment variables
 ```bash
 export GOOGLE_MAPS_API_KEY="your_api_key_here"
+export OPENWEATHER_API_KEY="your_actual_key_here"
 export FLASK_APP=app.py
 ```
 
-4. Configure your MySQL database connection in `db/db_connection.py`
+4. Configure your MySQL database connection in `db/db_connection.py` using a .env that looks similar to the following:
+```bash
+DB_HOST=localhost
+DB_USER=your_mysql_user
+DB_PASSWORD=your_mysql_password
+DB_NAME=your_db_name
+```
 
 5. Run the application
 
