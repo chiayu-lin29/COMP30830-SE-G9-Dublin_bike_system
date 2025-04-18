@@ -121,8 +121,8 @@ The application uses Flask as its backend framework with the following component
 1. Clone this repository
 
 ```bash
-git clone https://github.com/yourusername/dublin-bikes-planner.git
-cd dublin-bikes-planner
+git clone https://github.com/chiayu-lin29/COMP30830-SE-G9-Dublin_bike_system.git
+cd COMP30830-SE-G9-Dublin_bike_system
 ```
 
 2. Install Python dependencies
@@ -132,7 +132,6 @@ pip install -r requirements.txt
 ```
 
 3. Set up environment variables
-
 ```bash
 export GOOGLE_MAPS_API_KEY="your_api_key_here"
 export FLASK_APP=app.py
