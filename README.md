@@ -64,7 +64,22 @@ The application follows a modular architecture organized into functional areas:
 - Geocoding, distance calculations, and marker management  
 
 ### Data Visualization Module
-- Chart generation and prediction display functions  
+- Cleaning data and calculating predictions
+
+### Chart Module
+- Chart generation and prediction display functions
+
+### Notification Module
+- Inform Users of errors or handling custom onclick functions
+
+### Spinner 
+- Loading Components
+
+### Time 
+- Pull and Format time information
+
+### Weather Module 
+- Pull, format and display weather information
 
 # Backend Architecture
 
