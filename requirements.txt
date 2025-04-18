@@ -1,6 +1,10 @@
 flask
 requests
-sqlalchemy
-pymysql
 python-dotenv
 mysql-connector-python
+pymysql
+sqlalchemy
+pandas
+numpy
+scikit-learn
+joblib
