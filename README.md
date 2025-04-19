@@ -163,10 +163,6 @@ python app.py
 # Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
 ## Project structure
 ```
 COMP30830-SE-G9-Dublin_bike_system/
